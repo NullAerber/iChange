@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="?attr/toolbar_color"
+    android:gravity="center_vertical"
+    android:paddingTop="35dp">
+
+    <ImageView
+        android:id="@+id/actionbar_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/background_actionbar_image_selector"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/actionbar_menu" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_index"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/toolbar_real_h_w"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/tab_index" />
+
+        <RadioButton
+            android:id="@+id/rb_circle"
+            android:layout_width="@dimen/toolbar_real_h_w"
+            android:layout_height="@dimen/toolbar_real_h_w"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tab_circle"/>
+
+        <RadioButton
+            android:id="@+id/rb_murmur"
+            android:layout_width="@dimen/toolbar_real_h_w"
+            android:layout_height="@dimen/toolbar_real_h_w"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tab_murmur"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivMenuSearch"
+        android:layout_width="@dimen/toolbar_real_h_w"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@drawable/background_actionbar_image_selector"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/actionbar_search" />
+
+
+</android.support.v7.widget.Toolbar>

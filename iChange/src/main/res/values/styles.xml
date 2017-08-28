@@ -1,0 +1,175 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTheme</item>
+        <item name="colorPrimaryDark">@color/colorTheme</item>
+        <item name="colorAccent">@color/colorTheme</item>
+    </style>
+
+    <!--水平分隔线-->
+    <style name="horizontalLine">
+        <item name="android:background">@color/colorLineItem</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!--菜单item-->
+    <style name="menuItem">
+        <item name="android:background">@drawable/ripple_item_white_bg</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">@color/text_common</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DayTheme" parent="AppTheme">
+        <item name="text_color">@color/text_color_day</item>
+        <item name="text_sub_color">@color/text_color_day</item>
+        <item name="divider_color">@color/divider_color_day</item>
+        <item name="item_bg">@color/item_bg_day</item>
+        <item name="bottom_bg">@color/white</item>
+        <item name="src_icon_message">@drawable/icon_message_day</item>
+        <item name="toolbar_color">@color/Themered</item>
+    </style>
+
+    <style name="NightTheme" parent="AppTheme">
+        <item name="text_color">@color/text_color_night</item>
+        <item name="text_sub_color">@color/text_sub_color_night</item>
+        <item name="divider_color">@color/divider_color_night</item>
+        <item name="item_bg">@color/item_bg_night</item>
+        <item name="bottom_bg">@color/bottom_bg_night</item>
+        <item name="src_icon_message">@drawable/icon_message_night</item>
+        <item name="toolbar_color">@color/bottom_bg_night</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--titlebar 标题-->
+    <style name="ToolBar.Title" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--titlebar 副标题-->
+    <style name="Toolbar.SubTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">9.0sp</item>
+        <item name="android:textColor">#99ffffff</item>
+    </style>
+
+    <!--titleBar样式-->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionBarItemBackground">@drawable/toolbarItemBackground</item>
+        <item name="selectableItemBackground">@drawable/toolbarItemBackground</item>
+        <item name="titleTextAppearance">@style/ToolBar.Title</item>
+        <item name="subtitleTextAppearance">@style/Toolbar.SubTitle</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:textSize">18sp</item> &lt;!&ndash;  搞掂字体大小&ndash;&gt;-->
+    </style>
+
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <style name="style_smile">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="style_text" parent="style_smile">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="style_text_small" parent="style_smile">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="style_text_middle" parent="style_smile">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="style_text_large" parent="style_smile">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="style_text_black" parent="style_text">
+        <item name="android:textColor">@color/base_color_text_black</item>
+    </style>
+
+    <style name="style_text_white" parent="style_text">
+        <item name="android:textColor">@color/base_color_text_white</item>
+    </style>
+
+    <style name="style_text_gray_small" parent="style_text_small">
+        <item name="android:textColor">@color/color_99</item>
+    </style>
+
+    <style name="style_text_white_small" parent="style_text_small">
+        <item name="android:textColor">@color/base_color_text_white</item>
+    </style>
+
+    <style name="style_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_title</item>
+    </style>
+
+    <style name="style_button_logout" parent="style_text_white">
+        <item name="android:background">@drawable/btn_logout_selector</item>
+    </style>
+
+    <style name="style_text_1e1e1e" parent="style_text">
+        <item name="android:textColor">@color/color_1e1e1e</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--设置中间弹出PopupWindow的动画-->
+    <style name="anim_popup_centerbar">
+        <item name="android:windowEnterAnimation">@anim/popup_centerbar_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_centerbar_out</item>
+    </style>
+</resources>

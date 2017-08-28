@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">iChange</string>
+
+    <string name="LinkUrl">http://123.207.173.116/ichange/</string>
+
+    <string name="transition_movie_img">transition_movie_img</string>
+    <string name="transition_news_img">transition_news_img</string>
+    <string name="transition_book_img">transition_book_img</string>
+
+    <string name="action_share">分享</string>
+    <string name="actionbar_search">搜索</string>
+    <string name="actionbar_more">更多信息</string>
+    <string name="actionbar_webview_share">分享到</string>
+    <string name="actionbar_webview_cope">复制链接</string>
+    <string name="actionbar_webview_open">打开链接</string>
+    <string name="actionbar_share">分享给朋友\(^o^)/~</string>
+
+    <string name="request_fail">连接失败～</string>
+    <string name="pic_get_error">图片获取失败～</string>
+    <string name="sign_success">签到成功～</string>
+
+    <!--chat的string文件-->
+    <string name="action_settings">Settings</string>
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_email_hint">请再次输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_email">确认密码 </string>
+
+    <string name="main_tab_recent">会话</string>
+    <string name="main_tab_contact">联系人</string>
+    <string name="mian_tab_set">设置</string>
+
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="agree">接受</string>
+    <string name="new_friend">新的朋友</string>
+
+    <string name="chat">聊天</string>
+    <string name="add_friend">添加好友</string>
+
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">个人资料</string>
+    <string name="set_blacklist">黑名单</string>
+    <string name="set_voice">声音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="logout">退出登陆</string>
+
+    <string name="longclick_speak">长按说话</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    <string name="voice_seconds_tips">还可以说%1$s秒</string>
+    <string name="voice_short_tips">录音时间太短</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="description">Description</string>
+    <string name="designer_detail_domain">www.ichange.top/designer/</string>
+    <string name="search_cannot_null">搜索不能为空！</string>
+    <string name="search_finish">查找结束～</string>
+    <string name="have_been_signed">你已经签到过啦～O(∩_∩)O～</string>
+    <string name="try_move_char">现在你可以移动人物了～～</string>
+    <string name="no_network">你没有连接网络～请确认你的网络连接！</string>
+    <string name="circle_say_something">说点什么吧...</string>
+    <string name="input_cannot_null">输入内容不可以为空</string>
+    <string name="delete_own_comment">删除自己的评论</string>
+    <string name="comment_num_text">评论</string>
+</resources>

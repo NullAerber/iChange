@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="Themered">#f29cb1</color>
+    <color name="black">#000000</color>
+
+    <color name="divider_color_day">#D6DAD9</color>
+    <color name="divider_color_night">#1D1E20</color>
+
+    <color name="item_bg_day">#EEF2F1</color>
+    <color name="text_color_day">#000000</color>
+    <color name="text_sub_color_day">#969696</color>
+
+    <color name="item_bg_night">#111214</color>
+    <color name="text_color_night">#727679</color>
+    <color name="text_sub_color_night">#727679</color>
+    <color name="bottom_bg_night">#222325</color>
+
+    <color name="half_transparent">#20000000</color>
+    <color name="transparent">#00000000</color>
+
+
+
+
+    <color name="colorTheme">#f29cb1</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+
+    <color name="colorWhite">#ffffffff</color>
+
+    <!--主页tab背景-->
+    <color name="colorTabBg">#ffffffff</color>
+    <color name="colorTabTextCheck">#f29cb1</color>
+    <color name="colorTabTextNormal">#585858</color>
+    <color name="colorTabLine">#f29cb1</color>
+
+    <!--侧边栏分割线-->
+    <color name="colorNavLine">#E0E0E0</color>
+
+
+    <!--分割线-->
+    <color name="colorLine">#EBEBEB</color>
+    <!--首页分割线-->
+    <color name="colorHomeLine">#D4D4D4</color>
+
+    <color name="colorLineDeep">#BBBBBB</color>
+
+    <!--item的分割线-->
+    <color name="colorLineItem">#FFDDDDDD</color>
+
+    <!--tab标签栏文字的颜色-->
+    <color name="colorTabText">#585858</color>
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--水波纹或5.0以下选择器颜色-->
+    <color name="tabBackground">#777D7D7D</color>
+    <!--item的水波纹颜色-->
+    <color name="itemBackground">#DD7D7D7D</color>
+    <!--item的5.0一下版本选择器颜色-->
+    <color name="itemLowBackground">#d9d9d9</color>
+
+    <!--透明色-->
+    <color name="colorTransparent">#00000000</color>
+    <!--半透明-->
+    <color name="colorBanTransparent">#11000000</color>
+    <!--首页item文字颜色-->
+    <color name="colorSubtitle">#999</color>
+
+    <color name="colorTitle">#666</color>
+    <!--谈红色  用于首页调整点击变色-->
+    <color name="colorSmallRed">#faebeb</color>
+
+    <!--电影评分-->
+    <color name="colorRateRed">#FB5B81</color>
+
+    <!--没有水波纹效果的颜色选择器-->
+    <color name="colorItemBackground">#d9d9d9</color>
+
+    <!--选择分类按下颜色-->
+    <color name="colorChoosePress">#DDD</color>
+
+    <!--暂时用于反馈文字-->
+    <color name="text_common">#191919</color>
+
+    <color name="text_deed_bg">#f6f6f6</color>
+    <!--dialog的查看详情键-->
+    <color name="colorBtDialog">#38659C</color>
+
+
+
+    <color name="color_808080">#808080</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="bg_line">#e5e5e5</color>
+    <color name="color_black">#000000</color>
+
+    <color name="color_comment_bg">#EBECEE</color>
+    <color name="color_comment_border">#CECFD0</color>
+    <color name="color_send_btn">#28B5EB</color>
+
+    <color name="blue">#3d7dff</color>
+    <color name="green">#2cf52c</color>
+
+    <color name="green_press">@color/green</color>
+    <color name="green_default">#7e00c456</color>
+
+
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="color_theme">#489cfa</color>
+
+    <color name="color_emote_divder">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+    <color name="text_gray">#969696</color>
+    <color name="msg_chat_bg">#eceff4</color>
+
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="c_f98800">#ed4e23</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="guide_color">#898989</color>
+
+    <color name="common_bg">#fcfcfc</color>
+    <color name="color_99">#999999</color>
+    <color name="color_line">#dadada</color>
+    <color name="color_chat_send_status">#818181</color>
+    <color name="color_msg_system_time_bg">#20000000</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_b4">#b4b4b4</color>
+
+    <color name="red">#da836c</color>
+    <color name="Bigred">#ed4e23</color>
+
+</resources>
+
+
+

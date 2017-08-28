@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subindex_scro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPageBg"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/index_title_layout" />
+
+        <include
+            android:id="@+id/index_title_one"
+            layout="@layout/item_index_title" />
+
+        <include layout="@layout/item_index_three" />
+
+        <include
+            android:id="@+id/index_one_one"
+            layout="@layout/item_index_one" />
+
+        <include
+            android:id="@+id/index_title_two"
+            layout="@layout/item_index_title" />
+
+        <include layout="@layout/item_index_two" />
+
+        <include
+            android:id="@+id/index_title_three"
+            layout="@layout/item_index_title" />
+
+        <include
+            android:id="@+id/index_one_two"
+            layout="@layout/item_index_one" />
+
+        <include
+            android:id="@+id/index_title_four"
+            layout="@layout/item_index_title" />
+
+        <include
+            android:id="@+id/index_one_three"
+            layout="@layout/item_index_one" />
+
+        <include layout="@layout/footer_item_index"/>
+    </LinearLayout>
+</ScrollView>

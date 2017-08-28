@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/activity_nav_deed_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPageBg"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_head"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_notclickbg"
+            android:lineSpacingExtra="2dp"
+            android:padding="12dp"
+            android:text="您好，很希望得到您的意见，由于没有目前这个APP处于版权申请中，所以GitHub暂时不放源码。\n您可以在GitHub的空项目Issues处处说明问题原因，也可以通过以下方式联系我，我将根据情况尽量处理哦 ~"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:text="Issues"
+                android:textColor="@color/colorTabText"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/tv_issues"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple_item_white_bg"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="12dp"
+                android:text="iChange"
+                android:textColor="@color/text_common"
+                android:textSize="16sp" />
+
+            <View
+                style="@style/horizontalLine"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tv_faq"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple_item_white_bg"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="12dp"
+                android:text="常见问题归纳"
+                android:textColor="@color/text_common"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="10dp"
+                android:text="联系我"
+                android:textColor="@color/colorTabText"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_qq"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple_item_white_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="12dp"
+                android:text="QQ:1019735081"
+                android:textColor="@color/text_common"
+                android:textSize="16sp" />
+
+            <View
+                style="@style/horizontalLine"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple_item_white_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="12dp"
+                android:text="Email: 1019735081@qq.com"
+                android:textColor="@color/text_common"
+                android:textSize="16sp" />
+
+            <View
+                style="@style/horizontalLine"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/tv_jianshu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ripple_item_white_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="12dp"
+                android:text="Girhub:NullAerber"
+                android:textColor="@color/text_common"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

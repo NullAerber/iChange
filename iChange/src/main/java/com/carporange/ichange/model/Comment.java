@@ -11,6 +11,7 @@ public class Comment implements Parcelable {
     private User commentUser;
     private User replayUser;
     private String content;
+    private int root;
 
     public Comment() {
     }
@@ -49,7 +50,7 @@ public class Comment implements Parcelable {
         return commentUser;
     }
 
-    public void setCommentUser(User commentUser) {
+    public void setBeenReplayUser(User commentUser) {
         this.commentUser = commentUser;
     }
 
@@ -67,5 +68,13 @@ public class Comment implements Parcelable {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public void setRoot(int root) {
+        this.root = root;
+    }
+
+    public int getRoot() {
+        return root;
     }
 }

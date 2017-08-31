@@ -1,9 +1,9 @@
 package com.carporange.ichange.adapter;
 
 import android.content.Context;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Looper;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -26,7 +26,12 @@ import com.carporange.ichange.model.Dynamic;
 import com.carporange.ichange.model.User;
 import com.carporange.ichange.util.CommentTagHandler;
 import com.carporange.ichange.util.DensityUtil;
+import com.carporange.ichange.util.LinkerServer;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.imdemo.model.UserModel;
@@ -67,12 +72,15 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
         this.listener = new CommentTagHandler.OnCommentClickListener() {
             @Override
             public void onCommentorClicked(View view, User commentUser) { // 点击评论者
-                Toast.makeText(context, commentUser.getName(), Toast.LENGTH_SHORT).show();
+                int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
+                Toast.makeText(context, commentUser.getName() + pos, Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onReplyerClicked(View view, User replyUser) { //点击回复者
-                Toast.makeText(context, replyUser.getName(), Toast.LENGTH_SHORT).show();
+                int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
+                Toast.makeText(context, replyUser.getName() + pos, Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
@@ -81,6 +89,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
                 CommentListAdapter commentAdapter = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
+
                 // 如果点击的评论是自己发出的，则删除该评论
                 if (user.getId() == myId) {
                     commentList.remove(pos);
@@ -94,6 +103,8 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 send_btn.setTag(CommentTagHandler.KEY_REPLYER, user);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION, pos);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, commentList.get(pos).getRoot());
                 showCommentPop(view);
             }
         };
@@ -160,7 +171,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
     public void onBindViewHolder(final DynamicViewHolder holder, final int position) {
         Dynamic dynamic = dynamicList.get(position);
         final List<Comment> commentList = dynamic.getCommentList();
-        holder.comment_count_tv.setText(context.getString(R.string.comment_num_text)+"(" + commentList.size() + ")");
+        holder.comment_count_tv.setText(context.getString(R.string.comment_num_text) + "(" + commentList.size() + ")");
         holder.tv_content.setText(dynamic.getContent());
 
         setImages(holder.image_ll, dynamic.getImageCount(), dynamic.getDrawables());
@@ -175,6 +186,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 send_btn.setTag(CommentTagHandler.KEY_REPLYER, null);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, adapter);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, position);
                 showCommentPop(view);
             }
         });
@@ -211,38 +223,82 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
         }
     }
 
-    private void startReply(View view) {
+    private void startReply(final View view) {
         if (TextUtils.isEmpty(input_edit.getText().toString())) {
             Toast.makeText(view.getContext(), R.string.input_cannot_null, Toast.LENGTH_SHORT).show();
             return;
         }
+
         Object tag = view.getTag(CommentTagHandler.KEY_REPLYER);
-        User commentUser;
+        User BeenReplyUser;
         User replayUser = null;
+
+        String been_reply = "-1";
+        final String final_root = String.valueOf(view.getTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION));
+
+        int pos = -1;
+
+        //to reply a subcomment
         if (tag != null) {
-            commentUser = (User) view.getTag(CommentTagHandler.KEY_REPLYER);
-            replayUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
+            BeenReplyUser = (User) view.getTag(CommentTagHandler.KEY_REPLYER);
+            BeenReplyUser.setName(BeenReplyUser.getName().trim());
+            replayUser = new User(myId, "\t\t" + UserModel.getInstance().getCurrentUser().getUsername());
+
+            pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
         } else {
-            commentUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
+            BeenReplyUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
+            been_reply = "-1";
         }
-        List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
-        CommentListAdapter commentAdapter = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
 
-        Comment comment = new Comment();
-        comment.setReplayUser(replayUser);
-        comment.setCommentUser(commentUser);
-        //TODO 进行同步操作  被回复用户ID通过名字来获取
-        comment.setContent(input_edit.getText().toString());
-        commentList.add(comment);
-        // 此处不能使用Adapter的notifyItemInserted方法，因为当点击该item时，
-        // 需要使用到该item的position，如果使用notifyItemInserted方法会导致位置错乱
-        commentAdapter.notifyDataSetChanged();
-        input_edit.setText("");
+        final User finalReplayUser = replayUser;
+        final User finalBeenReply = BeenReplyUser;
+        final int final_pos = pos + 1;
+        final String final_been_reply = been_reply;
 
-        if (popupWindow.isShowing()) {
-            popupWindow.dismiss();
-            inputManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
-        }
+        //进行评论上传
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
+                CommentListAdapter commentAdapterInSubComment = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
+
+                List<NameValuePair> params = new ArrayList<>();
+//                params.add(new BasicNameValuePair("username", UserModel.getInstance().getCurrentUser().getUsername()));
+//                params.add(new BasicNameValuePair("content", input_edit.getText().toString()));
+//                params.add(new BasicNameValuePair("root", final_root));
+//                params.add(new BasicNameValuePair("reply", final_been_reply));
+
+                params.add(new BasicNameValuePair("username", "1212"));
+                params.add(new BasicNameValuePair("content", "1212"));
+                params.add(new BasicNameValuePair("root", "1212"));
+                params.add(new BasicNameValuePair("reply", "1212"));
+
+                LinkerServer linkerServer = new LinkerServer("comment_add");
+                if (linkerServer.Linker()) {
+                    Looper.prepare();
+                    Comment comment = new Comment();
+                    comment.setReplayUser(finalReplayUser);
+                    comment.setBeenReplayUser(finalBeenReply);
+                    comment.setContent(input_edit.getText().toString());
+                    if (final_pos == 0) commentList.add(comment);
+                    else commentList.add(final_pos, comment);
+                    // 此处不能使用Adapter的notifyItemInserted方法，因为当点击该item时，
+                    // 需要使用到该item的position，如果使用notifyItemInserted方法会导致位置错乱
+                    commentAdapterInSubComment.notifyDataSetChanged();
+                    input_edit.setText("");
+
+                    if (popupWindow.isShowing()) {
+                        popupWindow.dismiss();
+                        inputManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                    }
+                    Looper.loop();
+                } else{
+                    Looper.prepare();
+                    Toast.makeText(context, R.string.comment_fail, Toast.LENGTH_SHORT).show();
+                    Looper.loop();
+                }
+            }
+        }).start();
     }
 
     public static class DynamicViewHolder extends RecyclerView.ViewHolder {

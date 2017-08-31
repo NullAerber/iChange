@@ -74,4 +74,5 @@
     <string name="input_cannot_null">输入内容不可以为空</string>
     <string name="delete_own_comment">删除自己的评论</string>
     <string name="comment_num_text">评论</string>
+    <string name="comment_fail">评论失败～请检查网络～</string>
 </resources>

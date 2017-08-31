@@ -30,6 +30,7 @@ public class CommentTagHandler implements Html.TagHandler {
     public static final int KEY_COMMENT_LIST = -10001;
     public static final int KEY_COMMENT_ADAPTER = -10002;
     public static final int KEY_COMMENT_ITEM_POSITION = -10003;
+    public static final int KEY_COMMENT_ROOT_POSITION = -10004;
 
     public static final int KEY_COMMENTOR_START = 10;
     public static final int KEY_REPLYER_START = 11;

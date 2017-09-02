@@ -95,12 +95,14 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
             @Override
             public void onCommentorClicked(View view, User commentUser) { // 点击评论者
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
+                //TODO
                 Toast.makeText(context, commentUser.getName() + pos, Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onReplyerClicked(View view, User replyUser) { //点击回复者
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
+                //TODO
                 Toast.makeText(context, replyUser.getName() + pos, Toast.LENGTH_SHORT).show();
 
             }
@@ -113,12 +115,12 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
 
                 // 如果点击的评论是自己发出的，则删除该评论
-                if (user.getId() == myId) {
-                    commentList.remove(pos);
-                    commentAdapter.notifyDataSetChanged();
-                    Toast.makeText(context, R.string.delete_own_comment, Toast.LENGTH_SHORT).show();
-                    return;
-                }
+//                if (user.getId() == myId) {
+//                    commentList.remove(pos);
+//                    commentAdapter.notifyDataSetChanged();
+//                    Toast.makeText(context, R.string.delete_own_comment, Toast.LENGTH_SHORT).show();
+//                    return;
+//                }
 
                 String replyName = user.getName().trim();
                 input_edit.setHint("回复:" + replyName);
@@ -127,6 +129,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION, pos);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, commentList.get(pos).getRoot());
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_SUB_ROOT_POSITION, commentList.get(pos).getSubRoot());
                 showCommentPop(view);
             }
         };
@@ -212,6 +215,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, adapter);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, position);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_SUB_ROOT_POSITION, -1);
                 showCommentPop(view);
             }
         });
@@ -253,34 +257,6 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
             Toast.makeText(view.getContext(), R.string.input_cannot_null, Toast.LENGTH_SHORT).show();
             return;
         }
-//
-//
-//
-//
-//        Object tag = view.getTag(CommentTagHandler.KEY_REPLYER);
-//        User BeenReplyUser;
-//        User replayUser = null;
-//
-//        String been_reply = "-1";
-//
-//
-//
-//        //to reply a subcomment
-//        if (tag != null) {
-//            BeenReplyUser = (User) view.getTag(CommentTagHandler.KEY_REPLYER);
-//            BeenReplyUser.setName(BeenReplyUser.getName().trim());
-//
-//
-//            been_reply = BeenReplyUser.getName();
-//
-//        } else {
-//            BeenReplyUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
-//        }
-//
-//        final User finalReplayUser = replayUser;
-//        final User finalBeenReply = BeenReplyUser;
-//        final int final_pos = pos + 1;
-//        final String final_been_reply = been_reply;
 
         //进行评论上传
         new Thread(new Runnable() {
@@ -289,12 +265,14 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
                 String been_reply_name = (String) view.getTag(CommentTagHandler.KEY_REPLYER);
                 String root = String.valueOf(view.getTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION));
+                String subroot = String.valueOf(view.getTag(CommentTagHandler.KEY_COMMENT_SUB_ROOT_POSITION));
 
                 List<NameValuePair> params = new ArrayList<>();
                 params.add(new BasicNameValuePair("reply", UserModel.getInstance().getCurrentUser().getUsername()));
                 params.add(new BasicNameValuePair("content", input_edit.getText().toString()));
                 params.add(new BasicNameValuePair("root", root));
                 params.add(new BasicNameValuePair("beenreply", been_reply_name));
+                params.add(new BasicNameValuePair("subroot", subroot));
 
                 LinkerServer linkerServer = new LinkerServer("comment_add", params);
                 if (linkerServer.Linker()) {

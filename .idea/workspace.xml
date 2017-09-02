@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5470551-8714-487e-aecf-f3c6d4b96fe6" name="Default" comment="" />
+    <list default="true" id="d5470551-8714-487e-aecf-f3c6d4b96fe6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/iChange.iml" afterPath="$PROJECT_DIR$/iChange/iChange.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java" />
+    </list>
     <ignored path="iChangePrivate.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,49 +53,49 @@
     <favorites_list name="iChangePrivate" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CircleFragment.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CircleFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="251" column="40" selection-start-line="251" selection-start-column="40" selection-end-line="251" selection-end-column="40" />
-              <folding>
-                <element signature="e#2542#2593#0" expanded="false" />
-                <element signature="e#3604#3614#0" expanded="true" />
-                <element signature="e#3822#3849#0" expanded="true" />
-                <element signature="e#4337#4519#0" expanded="true" />
-                <element signature="e#4518#4519#0" expanded="true" />
-                <element signature="e#4777#4814#0" expanded="false" />
-                <element signature="e#11065#14287#0" expanded="true" />
-                <element signature="e#12789#12819#0" expanded="false" />
-                <element signature="e#14001#14184#0" expanded="true" />
-                <element signature="e#14183#14184#0" expanded="true" />
-                <element signature="e#14286#14287#0" expanded="true" />
-                <marker date="1504275383877" expanded="false" signature="2832:2902" ph="(Runnable) () → {" />
-                <marker date="1504275383877" expanded="false" signature="5697:5707" ph="&lt;~&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="760" column="0" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
+            <state relative-caret-position="89">
+              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicListAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DynamicListAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="193" column="52" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
+            <state relative-caret-position="158">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
               <folding>
-                <element signature="e#8546#8590#0" expanded="true" />
+                <element signature="e#8721#8765#0" expanded="true" />
+                <marker date="1504361103538" expanded="false" signature="4838:4865" ph="&quot;删除自己的评论&quot;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+              <folding>
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentTagHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,16 +103,19 @@
       <file leaf-file-name="CommentListAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/CommentListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="540">
               <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
-                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2788,8 +2810,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" />
       </list>
     </option>
   </component>
@@ -2822,7 +2846,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -2922,6 +2945,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3256,32 +3280,32 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.612013" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6107492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4267101" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3297,24 +3321,107 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java</url>
-          <line>198</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="iChange">
         <watch expression="list_comment" />
         <watch expression="commentList" />
+        <watch expression="comment" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11400">
+          <caret line="760" column="0" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#85488#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6764#6765#0" expanded="false" />
+            <element signature="e#6805#6806#0" expanded="false" />
+            <element signature="e#7887#7888#0" expanded="false" />
+            <element signature="e#7927#7928#0" expanded="false" />
+            <element signature="e#15157#15158#0" expanded="false" />
+            <element signature="e#15221#15222#0" expanded="false" />
+            <element signature="e#15841#15842#0" expanded="false" />
+            <element signature="e#15907#15908#0" expanded="false" />
+            <element signature="e#17490#17491#0" expanded="false" />
+            <element signature="e#17531#17532#0" expanded="false" />
+            <element signature="e#18449#18450#0" expanded="false" />
+            <element signature="e#18491#18492#0" expanded="false" />
+            <element signature="e#20155#20156#0" expanded="false" />
+            <element signature="e#20198#20199#0" expanded="false" />
+            <element signature="e#22498#22499#0" expanded="false" />
+            <element signature="e#22542#22543#0" expanded="false" />
+            <element signature="e#33346#33347#0" expanded="false" />
+            <element signature="e#33385#33386#0" expanded="false" />
+            <element signature="e#35989#35990#0" expanded="false" />
+            <element signature="e#36046#36047#0" expanded="false" />
+            <element signature="e#40820#40821#0" expanded="false" />
+            <element signature="e#40877#40878#0" expanded="false" />
+            <element signature="e#41151#41152#0" expanded="false" />
+            <element signature="e#41189#41190#0" expanded="false" />
+            <element signature="e#42524#42525#0" expanded="false" />
+            <element signature="e#42581#42582#0" expanded="false" />
+            <element signature="e#43579#43580#0" expanded="false" />
+            <element signature="e#43636#43637#0" expanded="false" />
+            <element signature="e#45417#45418#0" expanded="false" />
+            <element signature="e#45448#45449#0" expanded="false" />
+            <element signature="e#46458#46459#0" expanded="false" />
+            <element signature="e#46485#46486#0" expanded="false" />
+            <element signature="e#47785#47786#0" expanded="false" />
+            <element signature="e#47854#47855#0" expanded="false" />
+            <element signature="e#49787#49788#0" expanded="false" />
+            <element signature="e#49832#49833#0" expanded="false" />
+            <element signature="e#53818#53819#0" expanded="false" />
+            <element signature="e#53880#53881#0" expanded="false" />
+            <element signature="e#54974#54975#0" expanded="false" />
+            <element signature="e#55003#55004#0" expanded="false" />
+            <element signature="e#57500#57501#0" expanded="false" />
+            <element signature="e#57541#57542#0" expanded="false" />
+            <element signature="e#58599#58600#0" expanded="false" />
+            <element signature="e#58638#58639#0" expanded="false" />
+            <element signature="e#59285#59286#0" expanded="false" />
+            <element signature="e#59344#59345#0" expanded="false" />
+            <element signature="e#66859#66860#0" expanded="false" />
+            <element signature="e#66885#66886#0" expanded="false" />
+            <element signature="e#77741#77742#0" expanded="false" />
+            <element signature="e#77776#77777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="193" column="52" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
+          <folding>
+            <element signature="e#8721#8765#0" expanded="true" />
+            <marker date="1504361103538" expanded="false" signature="4838:4865" ph="&quot;删除自己的评论&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/CommentListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/os/Looper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -3335,56 +3442,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/CommentListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="540">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#1896#1897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="193" column="52" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
-          <folding>
-            <element signature="e#8546#8590#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="15">
           <caret line="760" column="0" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#85488#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6764#6765#0" expanded="false" />
+            <element signature="e#6805#6806#0" expanded="false" />
+            <element signature="e#7887#7888#0" expanded="false" />
+            <element signature="e#7927#7928#0" expanded="false" />
+            <element signature="e#15157#15158#0" expanded="false" />
+            <element signature="e#15221#15222#0" expanded="false" />
+            <element signature="e#15841#15842#0" expanded="false" />
+            <element signature="e#15907#15908#0" expanded="false" />
+            <element signature="e#17490#17491#0" expanded="false" />
+            <element signature="e#17531#17532#0" expanded="false" />
+            <element signature="e#18449#18450#0" expanded="false" />
+            <element signature="e#18491#18492#0" expanded="false" />
+            <element signature="e#20155#20156#0" expanded="false" />
+            <element signature="e#20198#20199#0" expanded="false" />
+            <element signature="e#22498#22499#0" expanded="false" />
+            <element signature="e#22542#22543#0" expanded="false" />
+            <element signature="e#33346#33347#0" expanded="false" />
+            <element signature="e#33385#33386#0" expanded="false" />
+            <element signature="e#35989#35990#0" expanded="false" />
+            <element signature="e#36046#36047#0" expanded="false" />
+            <element signature="e#40820#40821#0" expanded="false" />
+            <element signature="e#40877#40878#0" expanded="false" />
+            <element signature="e#41151#41152#0" expanded="false" />
+            <element signature="e#41189#41190#0" expanded="false" />
+            <element signature="e#42524#42525#0" expanded="false" />
+            <element signature="e#42581#42582#0" expanded="false" />
+            <element signature="e#43579#43580#0" expanded="false" />
+            <element signature="e#43636#43637#0" expanded="false" />
+            <element signature="e#45417#45418#0" expanded="false" />
+            <element signature="e#45448#45449#0" expanded="false" />
+            <element signature="e#46458#46459#0" expanded="false" />
+            <element signature="e#46485#46486#0" expanded="false" />
+            <element signature="e#47785#47786#0" expanded="false" />
+            <element signature="e#47854#47855#0" expanded="false" />
+            <element signature="e#49787#49788#0" expanded="false" />
+            <element signature="e#49832#49833#0" expanded="false" />
+            <element signature="e#53818#53819#0" expanded="false" />
+            <element signature="e#53880#53881#0" expanded="false" />
+            <element signature="e#54974#54975#0" expanded="false" />
+            <element signature="e#55003#55004#0" expanded="false" />
+            <element signature="e#57500#57501#0" expanded="false" />
+            <element signature="e#57541#57542#0" expanded="false" />
+            <element signature="e#58599#58600#0" expanded="false" />
+            <element signature="e#58638#58639#0" expanded="false" />
+            <element signature="e#59285#59286#0" expanded="false" />
+            <element signature="e#59344#59345#0" expanded="false" />
+            <element signature="e#66859#66860#0" expanded="false" />
+            <element signature="e#66885#66886#0" expanded="false" />
+            <element signature="e#77741#77742#0" expanded="false" />
+            <element signature="e#77776#77777#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+          <folding>
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="251" column="40" selection-start-line="251" selection-start-column="40" selection-end-line="251" selection-end-column="40" />
+        <state relative-caret-position="89">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
-            <element signature="e#2542#2593#0" expanded="false" />
-            <element signature="e#3604#3614#0" expanded="true" />
-            <element signature="e#3822#3849#0" expanded="true" />
-            <element signature="e#4337#4519#0" expanded="true" />
-            <element signature="e#4518#4519#0" expanded="true" />
-            <element signature="e#4777#4814#0" expanded="false" />
-            <element signature="e#11065#14287#0" expanded="true" />
-            <element signature="e#12789#12819#0" expanded="false" />
-            <element signature="e#14001#14184#0" expanded="true" />
-            <element signature="e#14183#14184#0" expanded="true" />
-            <element signature="e#14286#14287#0" expanded="true" />
-            <marker date="1504275383877" expanded="false" signature="2832:2902" ph="(Runnable) () → {" />
-            <marker date="1504275383877" expanded="false" signature="5697:5707" ph="&lt;~&gt;" />
+            <element signature="e#8721#8765#0" expanded="true" />
+            <marker date="1504361103538" expanded="false" signature="4838:4865" ph="&quot;删除自己的评论&quot;" />
           </folding>
         </state>
       </provider>

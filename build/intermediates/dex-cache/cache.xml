@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/aerber/github/iChangePrivate/iChange/src/main/libs/httpclient-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1e6cbb3cc2c5f210dd1310ff9fcb2c09c0d1438">
+        <dex dex="/home/aerber/github/iChangePrivate/iChange/build/intermediates/pre-dexed/debug/httpclient-4.5_70850892817ae1b4adaad7e3fb2fc16f8977ceec.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/aerber/AndroidStudioProjects/CloudMu_UI/iChange/src/main/libs/httpclient-4.5.jar"
         jumboMode="false"
         optimize="true"
@@ -18,6 +27,24 @@
         revision="25.0.2"
         sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
         <dex dex="/home/aerber/AndroidStudioProjects/CloudMu_UI/iChange/build/intermediates/pre-dexed/debug/httpcore-4.4.1_9a15cd7df781769428b73341070f2f9b3be81220.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerber/github/iChangePrivate/materialList/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="642730ec183711be7e8317cd8632bfa6f1db58b7">
+        <dex dex="/home/aerber/github/iChangePrivate/iChange/build/intermediates/pre-dexed/debug/classes_25e04b6e305b4edb3af7bb98f4dafba52d276e35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerber/github/iChangePrivate/iChange/src/main/libs/httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/aerber/github/iChangePrivate/iChange/build/intermediates/pre-dexed/debug/httpcore-4.4.1_9069dad346ba5cb3044264f66bbc3380e059ee83.jar" />
     </item>
     <item
         is-multidex="false"

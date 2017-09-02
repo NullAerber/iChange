@@ -3,10 +3,13 @@ package com.carporange.ichange.adapter;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Handler;
 import android.os.Looper;
+import android.os.Message;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -59,6 +62,25 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
 
     private int myId = 102;
 
+    private Handler uiHandler = new Handler() {
+        // 覆写这个方法，接收并处理消息。
+        @Override
+        public void handleMessage(Message msg) {
+            View view = (View) msg.obj;
+            CommentListAdapter commentAdapterInSubComment = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
+
+            // 此处不能使用Adapter的notifyItemInserted方法，因为当点击该item时，
+            // 需要使用到该item的position，如果使用notifyItemInserted方法会导致位置错乱
+            commentAdapterInSubComment.notifyDataSetChanged();
+            input_edit.setText("");
+
+            if (popupWindow.isShowing()) {
+                popupWindow.dismiss();
+                inputManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            }
+        }
+    };
+
     public DynamicListAdapter(RecyclerView recyclerView, final Context context, List<Dynamic> dynamicList) {
 //        this.mdrawables = drawables;
 //        this.mcontents = contents;
@@ -98,9 +120,9 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                     return;
                 }
 
-                String replyName = user.getName();
+                String replyName = user.getName().trim();
                 input_edit.setHint("回复:" + replyName);
-                send_btn.setTag(CommentTagHandler.KEY_REPLYER, user);
+                send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION, pos);
@@ -170,7 +192,10 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
     @Override
     public void onBindViewHolder(final DynamicViewHolder holder, final int position) {
         Dynamic dynamic = dynamicList.get(position);
+        if (dynamic.getCommentList() == null)
+            dynamic.setCommentList(new ArrayList<Comment>());
         final List<Comment> commentList = dynamic.getCommentList();
+
         holder.comment_count_tv.setText(context.getString(R.string.comment_num_text) + "(" + commentList.size() + ")");
         holder.tv_content.setText(dynamic.getContent());
 
@@ -183,7 +208,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
             @Override
             public void onClick(View view) {
                 input_edit.setHint(R.string.circle_say_something);
-                send_btn.setTag(CommentTagHandler.KEY_REPLYER, null);
+                send_btn.setTag(CommentTagHandler.KEY_REPLYER, "-1");
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, adapter);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, position);
@@ -228,71 +253,75 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
             Toast.makeText(view.getContext(), R.string.input_cannot_null, Toast.LENGTH_SHORT).show();
             return;
         }
-
-        Object tag = view.getTag(CommentTagHandler.KEY_REPLYER);
-        User BeenReplyUser;
-        User replayUser = null;
-
-        String been_reply = "-1";
-        final String final_root = String.valueOf(view.getTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION));
-
-        int pos = -1;
-
-        //to reply a subcomment
-        if (tag != null) {
-            BeenReplyUser = (User) view.getTag(CommentTagHandler.KEY_REPLYER);
-            BeenReplyUser.setName(BeenReplyUser.getName().trim());
-            replayUser = new User(myId, "\t\t" + UserModel.getInstance().getCurrentUser().getUsername());
-
-            pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
-        } else {
-            BeenReplyUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
-            been_reply = "-1";
-        }
-
-        final User finalReplayUser = replayUser;
-        final User finalBeenReply = BeenReplyUser;
-        final int final_pos = pos + 1;
-        final String final_been_reply = been_reply;
+//
+//
+//
+//
+//        Object tag = view.getTag(CommentTagHandler.KEY_REPLYER);
+//        User BeenReplyUser;
+//        User replayUser = null;
+//
+//        String been_reply = "-1";
+//
+//
+//
+//        //to reply a subcomment
+//        if (tag != null) {
+//            BeenReplyUser = (User) view.getTag(CommentTagHandler.KEY_REPLYER);
+//            BeenReplyUser.setName(BeenReplyUser.getName().trim());
+//
+//
+//            been_reply = BeenReplyUser.getName();
+//
+//        } else {
+//            BeenReplyUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
+//        }
+//
+//        final User finalReplayUser = replayUser;
+//        final User finalBeenReply = BeenReplyUser;
+//        final int final_pos = pos + 1;
+//        final String final_been_reply = been_reply;
 
         //进行评论上传
         new Thread(new Runnable() {
             @Override
             public void run() {
                 List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
-                CommentListAdapter commentAdapterInSubComment = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
+                String been_reply_name = (String) view.getTag(CommentTagHandler.KEY_REPLYER);
+                String root = String.valueOf(view.getTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION));
 
                 List<NameValuePair> params = new ArrayList<>();
-//                params.add(new BasicNameValuePair("username", UserModel.getInstance().getCurrentUser().getUsername()));
-//                params.add(new BasicNameValuePair("content", input_edit.getText().toString()));
-//                params.add(new BasicNameValuePair("root", final_root));
-//                params.add(new BasicNameValuePair("reply", final_been_reply));
+                params.add(new BasicNameValuePair("reply", UserModel.getInstance().getCurrentUser().getUsername()));
+                params.add(new BasicNameValuePair("content", input_edit.getText().toString()));
+                params.add(new BasicNameValuePair("root", root));
+                params.add(new BasicNameValuePair("beenreply", been_reply_name));
 
-                params.add(new BasicNameValuePair("username", "1212"));
-                params.add(new BasicNameValuePair("content", "1212"));
-                params.add(new BasicNameValuePair("root", "1212"));
-                params.add(new BasicNameValuePair("reply", "1212"));
-
-                LinkerServer linkerServer = new LinkerServer("comment_add");
+                LinkerServer linkerServer = new LinkerServer("comment_add", params);
                 if (linkerServer.Linker()) {
-                    Looper.prepare();
                     Comment comment = new Comment();
-                    comment.setReplayUser(finalReplayUser);
-                    comment.setBeenReplayUser(finalBeenReply);
                     comment.setContent(input_edit.getText().toString());
-                    if (final_pos == 0) commentList.add(comment);
-                    else commentList.add(final_pos, comment);
-                    // 此处不能使用Adapter的notifyItemInserted方法，因为当点击该item时，
-                    // 需要使用到该item的position，如果使用notifyItemInserted方法会导致位置错乱
-                    commentAdapterInSubComment.notifyDataSetChanged();
-                    input_edit.setText("");
 
-                    if (popupWindow.isShowing()) {
-                        popupWindow.dismiss();
-                        inputManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+                    //no user need to be replyed
+                    if (been_reply_name == "-1") {
+                        User BeenReplyUser = new User(myId, UserModel.getInstance().getCurrentUser().getUsername());
+                        comment.setBeenReplayUser(BeenReplyUser);
+
+                        commentList.add(comment);
+                    } else {
+                        int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION) + 1;
+
+                        User replayUser = new User(myId, "\t\t" + UserModel.getInstance().getCurrentUser().getUsername());
+                        comment.setReplayUser(replayUser);
+                        User BeenReplyUser = new User(pos, been_reply_name);
+                        comment.setBeenReplayUser(BeenReplyUser);
+
+                        commentList.add(pos, comment);
                     }
-                    Looper.loop();
-                } else{
+
+                    Message msg = new Message();
+                    msg.obj = view;
+                    uiHandler.sendMessage(msg);
+                } else {
                     Looper.prepare();
                     Toast.makeText(context, R.string.comment_fail, Toast.LENGTH_SHORT).show();
                     Looper.loop();

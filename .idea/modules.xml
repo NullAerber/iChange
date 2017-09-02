@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iChange/iChange.iml" filepath="$PROJECT_DIR$/iChange/iChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iChangePrivate.iml" filepath="$PROJECT_DIR$/iChangePrivate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialList/materialList.iml" filepath="$PROJECT_DIR$/materialList/materialList.iml" />
+    </modules>
+  </component>
+</project>

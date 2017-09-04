@@ -93,7 +93,7 @@ public class RankListFragment extends BaseFragment {
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();
@@ -116,8 +116,8 @@ public class RankListFragment extends BaseFragment {
                         .setText(tag)
                         .setTextResourceColor(R.color.black_button))
                 .addAction(R.id.right_text_button, new TextViewAction(getContext())
-                        .setText("详情…")
-                        .setTextResourceColor(R.color.Themered)
+                        .setText(R.string.rl_detail)
+                        .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
                             public void onActionClicked(View view, Card card) {
@@ -126,7 +126,7 @@ public class RankListFragment extends BaseFragment {
                                     public void run() {
                                         Looper.prepare();
                                         Intent intent = new Intent(getActivity(), ClothDetailActivity.class);
-                                        intent.putExtra("url", id);
+                                        intent.putExtra(getString(R.string.URL), id);
                                         getActivity().startActivity(intent);
                                         handler.sendEmptyMessage(0);
                                         Looper.loop();
@@ -141,7 +141,7 @@ public class RankListFragment extends BaseFragment {
                 Looper.prepare();
                 byte[] data = new byte[0];
                 try {
-                    data = ImageService.getImage(getString(R.string.LinkUrl) + "cloth/" + id + ".jpg");
+                    data = ImageService.getImage(getString(R.string.LINKUSRL) + "cloth/" + id + ".jpg");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

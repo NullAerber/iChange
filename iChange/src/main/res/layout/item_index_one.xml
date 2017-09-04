@@ -28,7 +28,6 @@
         android:layout_marginTop="2dp"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="@string/description"
         android:textColor="@color/colorContent"
         android:textSize="12sp" />
 

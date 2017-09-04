@@ -45,7 +45,7 @@ public class LaunchActivity extends BaseActivity {
             flag = manager.getActiveNetworkInfo().isAvailable();
         }
         if (!flag) {
-            Toast.makeText(this, R.string.no_network,Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.NO_NETWORK,Toast.LENGTH_LONG).show();
             finish();
         }else {
             Handler handler =new Handler(Looper.getMainLooper());

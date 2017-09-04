@@ -127,7 +127,7 @@ public class SearchActivity extends AerberBaeeActivity {
                             mListView.getAdapter().addAll(cards);
                         }
                     });
-                } else toast(getString(R.string.request_fail));
+                } else toast(getString(R.string.REQUEST_FAIL));
             }
         }).start();
     }
@@ -161,7 +161,7 @@ public class SearchActivity extends AerberBaeeActivity {
                         .setTextResourceColor(R.color.black_button))
                 .addAction(R.id.right_text_button, new TextViewAction(this)
                         .setText("详情…")
-                        .setTextResourceColor(R.color.Themered)
+                        .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
                             public void onActionClicked(View view, Card card) {
@@ -181,7 +181,7 @@ public class SearchActivity extends AerberBaeeActivity {
             public void run() {
                 byte[] data = new byte[0];
                 try {
-                    data = ImageService.getImage(getString(R.string.LinkUrl) + "cloth/" + id + ".jpg");
+                    data = ImageService.getImage(getString(R.string.LINKUSRL) + "cloth/" + id + ".jpg");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

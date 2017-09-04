@@ -70,9 +70,9 @@ public class DesignerDetailActivity extends AerberBaeeActivity implements View.O
                         byte[] avatar_data = new byte[0];
                         try {
                             if (i != cloth_id_record.length)
-                                avatar_data = ImageService.getImage(getString(R.string.LinkUrl) + "designer_link_cloth/" + cloth_id_record[i] + ".jpg");
+                                avatar_data = ImageService.getImage(getString(R.string.LINKUSRL) + "designer_link_cloth/" + cloth_id_record[i] + ".jpg");
                             else
-                                avatar_data = ImageService.getImage(getString(R.string.LinkUrl) + "designer/" + id + ".jpg");
+                                avatar_data = ImageService.getImage(getString(R.string.LINKUSRL) + "designer/" + id + ".jpg");
 
                         } catch (IOException e) {
                             e.printStackTrace();
@@ -119,7 +119,7 @@ public class DesignerDetailActivity extends AerberBaeeActivity implements View.O
                             }
                         }
                     });
-                } else toast(getString(R.string.request_fail));
+                } else toast(getString(R.string.REQUEST_FAIL));
             }
         }).start();
     }

@@ -46,7 +46,7 @@ public class ClothDetailActivity extends AerberBaeeActivity implements View.OnCl
 
                     byte[] data = new byte[0];
                     try {
-                        data = ImageService.getImage(getString(R.string.LinkUrl) + "cloth/" + id + ".jpg");
+                        data = ImageService.getImage(getString(R.string.LINKUSRL) + "cloth/" + id + ".jpg");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -59,7 +59,7 @@ public class ClothDetailActivity extends AerberBaeeActivity implements View.OnCl
                             InitView(str_record, drawable);
                         }
                     });
-                } else toast(getString(R.string.request_fail));
+                } else toast(getString(R.string.REQUEST_FAIL));
             }
         }).start();
     }
@@ -116,7 +116,7 @@ public class ClothDetailActivity extends AerberBaeeActivity implements View.OnCl
                         if (linkerServer.Linker())
                             toast(linkerServer.getResponse());
                         else
-                            toast(getString(R.string.request_fail));
+                            toast(getString(R.string.REQUEST_FAIL));
                     }
                 }).start();
                 break;

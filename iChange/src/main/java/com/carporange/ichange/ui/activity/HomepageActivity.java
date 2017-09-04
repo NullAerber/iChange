@@ -36,7 +36,7 @@ public class HomepageActivity extends AerberBaeeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav_homepage);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         final LinearLayout ll_info = (LinearLayout) findViewById(R.id.ll_info);
         ll_info.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +49,7 @@ public class HomepageActivity extends AerberBaeeActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomepageActivity.this, cn.bmob.imdemo.ui.SearchUserActivity.class);
-                intent.putExtra("go_from_contact", "C酱");
+                intent.putExtra(getString(R.string.GO_FROM_CONTACT), getString(R.string.hp_customer_service));
                 HomepageActivity.this.startActivity(intent);
             }
         });
@@ -133,23 +133,23 @@ public class HomepageActivity extends AerberBaeeActivity {
     private void Calculate() {
         java.text.DecimalFormat df = new java.text.DecimalFormat("######0.00");
         bmi = Double.valueOf(ed_weight.getText().toString()) / Math.pow(Double.valueOf(ed_hight.getText().toString()) / 100, 2);
-        String tag = "正常";
+        String tag = getString(R.string.hp_normal);
         if (bmi < 18.5) {
             tv_bmi.setTextColor(getResources().getColor(R.color.green));
             tv_bmi_tag.setTextColor(getResources().getColor(R.color.green));
-            tag = "偏轻";
+            tag = getString(R.string.hp_light);
         } else if (bmi > 24 && bmi < 27) {
-            tv_bmi.setTextColor(getResources().getColor(R.color.Themered));
-            tv_bmi_tag.setTextColor(getResources().getColor(R.color.Themered));
-            tag = "轻肥胖";
+            tv_bmi.setTextColor(getResources().getColor(R.color.colorTheme));
+            tv_bmi_tag.setTextColor(getResources().getColor(R.color.colorTheme));
+            tag = getString(R.string.hp_little_fat);
         } else if (bmi > 27 && bmi < 32) {
             tv_bmi.setTextColor(getResources().getColor(R.color.red));
             tv_bmi_tag.setTextColor(getResources().getColor(R.color.red));
-            tag = "肥胖";
+            tag = getString(R.string.hp_fat);
         } else if (bmi > 32) {
             tv_bmi.setTextColor(getResources().getColor(R.color.Bigred));
             tv_bmi_tag.setTextColor(getResources().getColor(R.color.Bigred));
-            tag = "姑娘你真该减肥了～";
+            tag = getString(R.string.hp_reduce_weight);
         } else {
             tv_bmi.setTextColor(getResources().getColor(R.color.black));
             tv_bmi_tag.setTextColor(getResources().getColor(R.color.black));

@@ -128,25 +128,25 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
         //title内容初始化
         rl_title_one = (RelativeLayout) title_one.findViewById(R.id.rl_title);
         TextView tv_title_one = (TextView) title_one.findViewById(R.id.tv_title_type);
-        tv_title_one.setText("推荐定制");
+        tv_title_one.setText(R.string.si_ranking);
         ImageView iv_title_one = (ImageView) title_one.findViewById(R.id.iv_title_type);
         iv_title_one.setImageDrawable(getResources().getDrawable(R.drawable.tailor_red));
 
         rl_title_two = (RelativeLayout) title_two.findViewById(R.id.rl_title);
         TextView tv_title_two = (TextView) title_two.findViewById(R.id.tv_title_type);
-        tv_title_two.setText("设计师");
+        tv_title_two.setText(R.string.si_designer);
         ImageView iv_title_two = (ImageView) title_two.findViewById(R.id.iv_title_type);
         iv_title_two.setImageDrawable(getResources().getDrawable(R.drawable.designer_logo));
 
         rl_title_three = (RelativeLayout) title_three.findViewById(R.id.rl_title);
         TextView tv_title_three = (TextView) title_three.findViewById(R.id.tv_title_type);
-        tv_title_three.setText("千金圈");
+        tv_title_three.setText(R.string.si_circle);
         ImageView iv_title_three = (ImageView) title_three.findViewById(R.id.iv_title_type);
         iv_title_three.setImageDrawable(getResources().getDrawable(R.drawable.home_title_movie));
 
         rl_title_four = (RelativeLayout) title_four.findViewById(R.id.rl_title);
         TextView tv_title_four = (TextView) title_four.findViewById(R.id.tv_title_type);
-        tv_title_four.setText("碎碎念");
+        tv_title_four.setText(R.string.si_murmur);
         ImageView iv_title_four = (ImageView) title_four.findViewById(R.id.iv_title_type);
         iv_title_four.setImageDrawable(getResources().getDrawable(R.drawable.home_title_movie));
     }
@@ -170,7 +170,7 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                     for (int i = 0; i < str_record.length; ++i) {
                         String[] record = str_record[i].split(";");
                         list_banner_title.add(record[0]);
-                        list_banner_pic_url.add(getString(R.string.LinkUrl) + "banner/" + record[1] + ".jpg");
+                        list_banner_pic_url.add(getString(R.string.LINKUSRL) + "banner/" + record[1] + ".jpg");
                         list_banner_next_bar_title.add(record[2]);
                         list_banner_url.add(record[3]);
                     }
@@ -204,8 +204,8 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                                         public void run() {
                                             Looper.prepare();
                                             Intent intent = new Intent(getActivity(), WebActivity.class);
-                                            intent.putExtra("url", list_banner_url.get(position));
-                                            intent.putExtra("bar_title", list_banner_next_bar_title.get(position));
+                                            intent.putExtra(getString(R.string.URL), list_banner_url.get(position));
+                                            intent.putExtra(getString(R.string.BAR_TITLE), list_banner_next_bar_title.get(position));
                                             getActivity().startActivity(intent);
                                             handler.sendEmptyMessage(0);
                                             Looper.loop();
@@ -216,7 +216,7 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();
@@ -245,7 +245,7 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                         //生成图片
                         byte[] data = new byte[0];
                         try {
-                            data = ImageService.getImage(getString(R.string.LinkUrl) + "subindex/" + record[1] + ".jpg");
+                            data = ImageService.getImage(getString(R.string.LINKUSRL) + "subindex/" + record[1] + ".jpg");
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -360,7 +360,7 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();
@@ -448,11 +448,11 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
             } else {
                 String NextClassName = "";
                 if (id < 4) {
-                    NextClassName = "com.carporange.ichange.ui.activity.ClothDetailActivity";
+                    NextClassName = getString(R.string.si_clothDetail_path);
                 } else if (id == 7) {
-                    NextClassName = "com.carporange.ichange.ui.activity.WebActivity";
+                    NextClassName = getString(R.string.si_webAct_path);
                 } else {
-                    NextClassName = "com.carporange.ichange.ui.activity.DesignerDetailActivity";
+                    NextClassName = getString(R.string.si_designeDetail_path);
                 }
 
                 try {
@@ -462,9 +462,9 @@ public class SubIndexFragment extends BaseFragment implements View.OnClickListen
                         public void run() {
                             Looper.prepare();
                             Intent intent = new Intent(getActivity(), NextClass);
-                            intent.putExtra("url", list_next_url_or_id.get(id));
+                            intent.putExtra(getString(R.string.URL), list_next_url_or_id.get(id));
                             if (NextClass == WebActivity.class)
-                                intent.putExtra("bar_title", murur_title);
+                                intent.putExtra(getString(R.string.BAR_TITLE), murur_title);
                             getActivity().startActivity(intent);
                             handler.sendEmptyMessage(0);
                             Looper.loop();

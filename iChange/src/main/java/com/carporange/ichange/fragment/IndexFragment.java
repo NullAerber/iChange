@@ -50,9 +50,9 @@ public class IndexFragment extends BaseFragment {
         mTabLayout = findView(R.id.tabLayout);
         mViewPager = findView(R.id.viewPager_subindex);
         CarpFragmentPagerAdapter fpa = new CarpFragmentPagerAdapter(getChildFragmentManager());
-        fpa.addFragment(new SubIndexFragment(), "首页");
-        fpa.addFragment(new RankListFragment(), "热销榜");
-        fpa.addFragment(new DesignerFragment(), "设计师");
+        fpa.addFragment(new SubIndexFragment(), getString(R.string.mfg_index));
+        fpa.addFragment(new RankListFragment(), getString(R.string.mfg_ranking));
+        fpa.addFragment(new DesignerFragment(), getString(R.string.mfg_designer));
         mViewPager.setAdapter(fpa);
         mTabLayout.setupWithViewPager(mViewPager);
     }

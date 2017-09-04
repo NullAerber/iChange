@@ -40,7 +40,6 @@
                     android:id="@+id/tv_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="未登录"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/colorWhite"
                     android:textSize="17sp" />
@@ -71,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="个人首页"
+            android:text="@string/hp"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -98,7 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="最近联系人"
+            android:text="@string/rc"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -124,7 +123,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="试衣间"
+            android:text="@string/fr"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -149,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="每日签到"
+            android:text="@string/sign"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -175,7 +174,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="登录第三方账号"
+            android:text="@string/tp"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -207,38 +206,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="问题反馈"
+            android:text="@string/fb"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/ll_nav_setting"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@drawable/ripple_one_item_bg"
-        android:clickable="true"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingLeft="14dp"
-        android:paddingRight="16dp">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_nav_setting"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@drawable/ripple_one_item_bg"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="14dp"-->
+        <!--android:paddingRight="16dp">-->
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@drawable/ripple_one_item_bg"
-            android:src="@drawable/ic_nav_setting" />
+        <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="@drawable/ripple_one_item_bg"-->
+            <!--android:src="@drawable/ic_nav_setting" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:text="设置"
-            android:textColor="@color/colorContent"
-            android:textSize="15sp" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:text=""-->
+            <!--android:textColor="@color/colorContent"-->
+            <!--android:textSize="15sp" />-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
     <LinearLayout
         android:id="@+id/ll_nav_about"
@@ -260,7 +259,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="关于iChange"
+            android:text="@string/au"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 
@@ -286,7 +285,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="退出应用"
+            android:text="@string/app_exit"
             android:textColor="@color/colorContent"
             android:textSize="15sp" />
 

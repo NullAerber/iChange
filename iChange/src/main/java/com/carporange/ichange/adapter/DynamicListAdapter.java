@@ -94,17 +94,36 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
         this.listener = new CommentTagHandler.OnCommentClickListener() {
             @Override
             public void onCommentorClicked(View view, User commentUser) { // 点击评论者
+                List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
+                CommentListAdapter commentAdapter = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
-                //TODO
-                Toast.makeText(context, commentUser.getName() + pos, Toast.LENGTH_SHORT).show();
+
+                String replyName = commentUser.getName().trim();
+                input_edit.setHint("回复:" + replyName);
+                send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION, pos);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, commentList.get(pos).getRoot());
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_SUB_ROOT_POSITION, commentList.get(pos).getSubRoot());
+                showCommentPop(view);
             }
 
             @Override
             public void onReplyerClicked(View view, User replyUser) { //点击回复者
+                List<Comment> commentList = (List<Comment>) view.getTag(CommentTagHandler.KEY_COMMENT_LIST);
+                CommentListAdapter commentAdapter = (CommentListAdapter) view.getTag(CommentTagHandler.KEY_COMMENT_ADAPTER);
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
-                //TODO
-                Toast.makeText(context, replyUser.getName() + pos, Toast.LENGTH_SHORT).show();
 
+                String replyName = replyUser.getName().trim();
+                input_edit.setHint("回复:" + replyName);
+                send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION, pos);
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_ROOT_POSITION, commentList.get(pos).getRoot());
+                send_btn.setTag(CommentTagHandler.KEY_COMMENT_SUB_ROOT_POSITION, commentList.get(pos).getSubRoot());
+                showCommentPop(view);
             }
 
             @Override

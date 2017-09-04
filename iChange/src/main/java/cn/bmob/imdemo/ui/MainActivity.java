@@ -3,7 +3,6 @@ package cn.bmob.imdemo.ui;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -75,7 +74,7 @@ public class MainActivity extends BaseActivity implements ObseverListener {
             @Override
             public void done(String uid, BmobException e) {
                 if (e == null) {
-                    Logger.i("connect success");
+                    Logger.i(getString(R.string.chat_connect_success));
                     //服务器连接成功就发送一个更新事件，同步更新会话及主页的小红点
                     EventBus.getDefault().post(new RefreshEvent());
                 } else {

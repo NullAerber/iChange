@@ -42,7 +42,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="8dp"
-                        android:text="热门销售榜"
+                        android:text="@string/si_ranking"
                         android:textColor="@color/colorContent"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -76,7 +76,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="xx"
                             android:textColor="@color/select_gank_day"
                             android:textSize="25sp" />
 
@@ -87,7 +86,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="每日碎碎念"
+                        android:text="@string/si_murmur"
                         android:textColor="@color/colorContent"
                         android:textSize="12sp" />
 
@@ -119,7 +118,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="8dp"
-                        android:text="千金圈"
+                        android:text="@string/si_circle"
                         android:textColor="@color/colorContent"
                         android:textSize="12sp" />
                 </LinearLayout>

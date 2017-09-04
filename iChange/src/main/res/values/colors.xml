@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#FFFFFF</color>
-    <color name="Themered">#f29cb1</color>
     <color name="black">#000000</color>
+    <color name="colorTheme">#f29cb1</color>
+<color name="colorBg">#6b000000</color>
+
 
     <color name="divider_color_day">#D6DAD9</color>
     <color name="divider_color_night">#1D1E20</color>
@@ -22,7 +24,6 @@
 
 
 
-    <color name="colorTheme">#f29cb1</color>
     <!--页面背景的颜色-->
     <color name="colorPageBg">#f2f4f5</color>
 

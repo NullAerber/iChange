@@ -86,7 +86,7 @@ public class CircleFragment extends BaseFragment {
                         for (String url : pic_urls) {
                             byte[] data = new byte[0];
                             try {
-                                data = ImageService.getImage(getString(R.string.LinkUrl) + "circle/" + url + ".jpg");
+                                data = ImageService.getImage(getString(R.string.LINKUSRL) + "circle/" + url + ".jpg");
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -102,7 +102,7 @@ public class CircleFragment extends BaseFragment {
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();

@@ -19,6 +19,6 @@ public class AboutActivity extends AerberBaeeActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav_about);
 
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
     }
 }

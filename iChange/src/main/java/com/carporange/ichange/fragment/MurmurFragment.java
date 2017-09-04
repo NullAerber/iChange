@@ -71,8 +71,8 @@ public class MurmurFragment extends BaseFragment {
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), WebActivity.class);
-                        intent.putExtra("url", record[0]);
-                        intent.putExtra("bar_title", record[1]);
+                        intent.putExtra(getString(R.string.URL), record[0]);
+                        intent.putExtra(getString(R.string.BAR_TITLE), record[1]);
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -105,7 +105,7 @@ public class MurmurFragment extends BaseFragment {
                 if (linkerServer.Linker()) {
                     String response = linkerServer.getResponse();
                     String[] str_record = response.split("\\|");
-                    for (int i = 0; i < str_record.length; ++i){
+                    for (int i = 0; i < str_record.length; ++i) {
                         String[] record = str_record[i].split(";");
                         list_id.push(record[0]);
                         list_title.push(record[1]);
@@ -117,15 +117,15 @@ public class MurmurFragment extends BaseFragment {
                         public void run() {
                             int length = list_id.size();
                             for (int i = 0; i < length; i++) {
-                                cards.add(CreateNewCard(list_id.pop(),list_title.pop(),
-                                        list_url.pop(),list_descir.pop()));
+                                cards.add(CreateNewCard(list_id.pop(), list_title.pop(),
+                                        list_url.pop(), list_descir.pop()));
                             }
                             mListView.getAdapter().addAll(cards);
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
-                    cards.add(CreateNewCard("","","",""));
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
+                    cards.add(CreateNewCard("", "", "", ""));
                     mListView.getAdapter().addAll(cards);
                 }
                 handler.sendEmptyMessage(0);
@@ -144,11 +144,11 @@ public class MurmurFragment extends BaseFragment {
                 .setTitleColor(getResources().getColor(R.color.white))
                 .setDescription(description)
                 .addAction(R.id.left_text_button, new TextViewAction(getContext())
-                        .setText("小编：C酱")
+                        .setText(R.string.mf_editor)
                         .setTextResourceColor(R.color.black_button))
                 .addAction(R.id.right_text_button, new TextViewAction(getContext())
-                        .setText("更多…")
-                        .setTextResourceColor(R.color.Themered)
+                        .setText(R.string.mf_more)
+                        .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
                             public void onActionClicked(View view, Card card) {
@@ -157,8 +157,8 @@ public class MurmurFragment extends BaseFragment {
                                     public void run() {
                                         Looper.prepare();
                                         Intent intent = new Intent(getActivity(), WebActivity.class);
-                                        intent.putExtra("url", url);
-                                        intent.putExtra("bar_title", title);
+                                        intent.putExtra(getString(R.string.URL), url);
+                                        intent.putExtra(getString(R.string.BAR_TITLE), title);
                                         getActivity().startActivity(intent);
                                         handler.sendEmptyMessage(0);
                                         Looper.loop();
@@ -173,7 +173,7 @@ public class MurmurFragment extends BaseFragment {
                 Looper.prepare();
                 byte[] data = new byte[0];
                 try {
-                    data = ImageService.getImage(getString(R.string.LinkUrl) + "murmur/" + id +".jpg");
+                    data = ImageService.getImage(getString(R.string.LINKUSRL) + "murmur/" + id + ".jpg");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

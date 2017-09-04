@@ -5,13 +5,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
 import android.support.annotation.NonNull;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,7 +13,6 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.base.AerberBaeeActivity;
@@ -55,7 +48,7 @@ public class TryListActivity extends AerberBaeeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_try_list);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         initView();
 
@@ -93,7 +86,7 @@ public class TryListActivity extends AerberBaeeActivity {
                             final String[] str_record = response.split(";");
                             cards.push(CreateNewCard(str_record[0], str_record[1], str_record[2],
                                     id_record[i]));
-                        } else toast(getString(R.string.request_fail));
+                        } else toast(getString(R.string.REQUEST_FAIL));
 
                     }
                     runOnUiThread(new Runnable() {
@@ -102,7 +95,7 @@ public class TryListActivity extends AerberBaeeActivity {
                             mListView.getAdapter().addAll(cards);
                         }
                     });
-                }else toast(getString(R.string.request_fail));
+                }else toast(getString(R.string.REQUEST_FAIL));
             }
         }).start();
 
@@ -120,8 +113,8 @@ public class TryListActivity extends AerberBaeeActivity {
                 .setSubtitleColor(+R.color.black)
                 .setDescription(description)
                 .addAction(R.id.left_text_button, new TextViewAction(this)
-                        .setText("衣服详情…")
-                        .setTextResourceColor(R.color.Themered)
+                        .setText(R.string.fr_bt_cloth_detail)
+                        .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
                             public void onActionClicked(View view, Card card) {
@@ -129,15 +122,15 @@ public class TryListActivity extends AerberBaeeActivity {
                                     @Override
                                     public void run() {
                                         Intent intent = new Intent(TryListActivity.this, ClothDetailActivity.class);
-                                        intent.putExtra("url", id);
+                                        intent.putExtra(getString(R.string.URL), id);
                                         TryListActivity.this.startActivity(intent);
                                     }
                                 }).start();
                             }
                         }))
                 .addAction(R.id.right_text_button, new TextViewAction(this)
-                        .setText("3D试衣…")
-                        .setTextResourceColor(R.color.Themered)
+                        .setText(R.string.fr_3D_fit)
+                        .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
                             public void onActionClicked(View view, Card card) {
@@ -145,7 +138,7 @@ public class TryListActivity extends AerberBaeeActivity {
                                     @Override
                                     public void run() {
                                         Intent intent = new Intent(TryListActivity.this, TryActivity.class);
-                                        intent.putExtra("bar_title", "试衣展示");
+                                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.fr_show_3D));
                                         TryListActivity.this.startActivity(intent);
                                     }
                                 }).start();
@@ -157,7 +150,7 @@ public class TryListActivity extends AerberBaeeActivity {
             public void run() {
                 byte[] data = new byte[0];
                 try {
-                    data = ImageService.getImage(getString(R.string.LinkUrl) + "cloth/" + id + ".jpg");
+                    data = ImageService.getImage(getString(R.string.LINKUSRL) + "cloth/" + id + ".jpg");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -186,9 +179,9 @@ public class TryListActivity extends AerberBaeeActivity {
         TextView tvTitle = (TextView)contentView.findViewById(R.id.tv_title);
         TextView tvConfirm = (TextView)contentView.findViewById(R.id.tv_confirm);
         TextView tvCancel = (TextView)contentView.findViewById(R.id.tv_cancel);
-        tvTitle.setText("你确定要删除 " + card.getProvider().getTitle() + " 吗？");
-        tvConfirm.setText("确定");
-        tvCancel.setText("取消");
+        tvTitle.setText(getString(R.string.fr_delete1) + card.getProvider().getTitle() + getString(R.string.fr_delete2));
+        tvConfirm.setText(R.string.fr_yes);
+        tvCancel.setText(R.string.fr_cannel);
 
         tvConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -202,9 +195,9 @@ public class TryListActivity extends AerberBaeeActivity {
                         params.add(new BasicNameValuePair("username", UserModel.getInstance().getCurrentUser().getUsername()));
                         LinkerServer linkerServer = new LinkerServer("try_delete", params);
                         if (linkerServer.Linker()) {
-                            toast("你删除了 " + card.getProvider().getTitle() + " ~");
+                            toast(getString(R.string.fr_finish_delete) + card.getProvider().getTitle());
                         }else {
-                            toast(getString(R.string.request_fail));
+                            toast(getString(R.string.REQUEST_FAIL));
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {

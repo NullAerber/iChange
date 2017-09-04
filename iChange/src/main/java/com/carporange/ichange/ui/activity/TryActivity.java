@@ -1,14 +1,9 @@
 package com.carporange.ichange.ui.activity;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +15,6 @@ import com.carporange.ichange.R;
 import com.carporange.ichange.ui.base.AerberBaeeActivity;
 
 public class TryActivity extends AerberBaeeActivity implements View.OnClickListener {
-    protected static final String TAG = "TryActivity";
     // 当前显示的bitmap对象
     private static Bitmap bitmap;
     //framlayout
@@ -64,7 +58,7 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav_try);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         //drag
         DisplayMetrics dm = getResources().getDisplayMetrics();
@@ -89,7 +83,6 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                 int x = (int) event.getX();
                 int y = (int) event.getY();
                 int lastTime = (int) event.getDownTime();
-                Log.i("zmy", String.valueOf(lastTime));
 
                 boolean mIsLongPressed = isLongPressed(event.getX(), event.getY(), x, y, lastTime, event.getEventTime(), 1500);
 
@@ -119,7 +112,6 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                                 lastY = screenHeight / 2;
                                 postionTag = false;
                             }
-                            Log.i("TAG", String.valueOf(event.getRawX()));
                             int dx = (int) event.getRawX() - lastX;
                             int dy = (int) event.getRawY() - lastY;
                             int left = v.getLeft() + dx;
@@ -143,7 +135,6 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                                 top = bottom - v.getHeight();
                             }
                             v.layout(left, top, right, bottom);
-                            Log.i("", "position：" + left + ", " + top + ", " + right + ", " + bottom);
                             //将当前的位置再次设置
                             lastX = (int) event.getRawX();
                             lastY = (int) event.getRawY();
@@ -253,7 +244,6 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
     static boolean isLongPressed(float lastX, float lastY, float thisX,
                                  float thisY, long lastDownTime, long thisEventTime,
                                  long longPressTime) {
-        Log.i("zmy", String.valueOf(thisEventTime));
         float offsetX = Math.abs(thisX - lastX);
         float offsetY = Math.abs(thisY - lastY);
         long intervalTime = thisEventTime - lastDownTime;

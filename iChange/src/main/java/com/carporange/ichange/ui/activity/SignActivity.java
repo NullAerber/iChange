@@ -1,6 +1,5 @@
 package com.carporange.ichange.ui.activity;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -8,22 +7,13 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.carporange.ichange.R;
 import com.carporange.ichange.sign_calender.DPCManager;
 import com.carporange.ichange.sign_calender.DPDecor;
-import com.carporange.ichange.sign_calender.DatePicker;
 import com.carporange.ichange.sign_calender.DatePicker2;
 import com.carporange.ichange.ui.base.AerberBaeeActivity;
 import com.carporange.ichange.util.LinkerServer;
@@ -36,7 +26,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
 
@@ -53,7 +42,7 @@ public class SignActivity extends AerberBaeeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         initView();
         GetInfo();
@@ -65,12 +54,12 @@ public class SignActivity extends AerberBaeeActivity {
         ll_sign_bottom = (LinearLayout) findViewById(R.id.ll_sign);
         ll_sign_bottom.setClickable(true);
         tv_sign = (TextView) findViewById(R.id.tv_sign);
-        username = this.getIntent().getStringExtra("username");
+        username = this.getIntent().getStringExtra(getString(R.string.USERNAME));
     }
 
     private void GetInfo() {
         signed_data = new ArrayList<>();
-        String response = this.getIntent().getStringExtra("response");
+        String response = this.getIntent().getStringExtra(getString(R.string.URL));
 
         if (response != null && response != "") {
             String[] str_record = response.split("\\|");
@@ -115,7 +104,7 @@ public class SignActivity extends AerberBaeeActivity {
                                     toast(getString(R.string.sign_success));
                                 }
                             });
-                        } else toast(getString(R.string.request_fail));
+                        } else toast(getString(R.string.REQUEST_FAIL));
                     }
                 }).start();
             }

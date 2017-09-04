@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="身材指数"
+            android:text="@string/hp_figure_point"
             android:textColor="@color/colorContent"
             android:textSize="18sp" />
 
@@ -55,10 +55,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="联系客服"
+            android:text="@string/hp_contact_service"
             android:textColor="@color/colorContent"
             android:textSize="18sp" />
-        联系客服
+
     </LinearLayout>
 
 </LinearLayout>

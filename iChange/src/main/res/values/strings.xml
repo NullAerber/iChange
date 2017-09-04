@@ -1,26 +1,125 @@
 <resources>
     <string name="app_name">iChange</string>
 
-    <string name="LinkUrl">http://123.207.173.116/ichange/</string>
+    <!--link server -->
+    <string name="LINKUSRL">http://123.207.173.116/ichange/</string>
+    <string name="REQUEST_FAIL">连接失败～</string>
+    <string name="NO_NETWORK">你没有连接网络～请确认你的网络连接！</string>
 
-    <string name="transition_movie_img">transition_movie_img</string>
-    <string name="transition_news_img">transition_news_img</string>
-    <string name="transition_book_img">transition_book_img</string>
 
-    <string name="action_share">分享</string>
-    <string name="actionbar_search">搜索</string>
-    <string name="actionbar_more">更多信息</string>
-    <string name="actionbar_webview_share">分享到</string>
-    <string name="actionbar_webview_cope">复制链接</string>
-    <string name="actionbar_webview_open">打开链接</string>
-    <string name="actionbar_share">分享给朋友\(^o^)/~</string>
+    <!--intent string-->
+    <string name="URL">url</string>
+    <string name="GO_FROM_CONTACT">go_from_contact</string>
+    <string name="BAR_TITLE">bar_title</string>
+    <string name="USERNAME">username</string>
 
-    <string name="request_fail">连接失败～</string>
+    <!--assembly-->
+    <string name="footer">已经到栏目底部了，没有更多了～(≧▽≦)</string>
+    <string name="backUP">返回顶部</string>
+
+    <!--the function into muneleft-->
+    <string name="hp">个人首页</string>
+    <string name="rc">最近联系人</string>
+    <string name="fr">试衣间</string>
+    <string name="tp">登录第三方网站</string>
+    <string name="tp_github_login">http://github.com/login</string>
+    <string name="fb">问题反馈</string>
+    <string name="au">关于我们</string>
+    <string name="sign">每日签到</string>
+    <string name="app_exit">退出应用</string>
+
+
+    <!--homepager-->
+    <string name="hp_customer_service">C酱</string>
+    <string name="hp_normal">正常</string>
+    <string name="hp_light">偏轻</string>
+    <string name="hp_little_fat">轻肥胖</string>
+    <string name="hp_fat">肥胖</string>
+    <string name="hp_reduce_weight">姑娘你真该减肥了～</string>
+    <string name="hp_figure_point">身材指数</string>
+    <string name="hp_contact_service">联系客服</string>
+    <string name="hp_height">身高：</string>
+    <string name="hp_weight">体重：</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="hp_hipline">臀围：</string>
+    <string name="hp_waist">腰围：</string>
+    <string name="hp_bust">胸围：</string>
+    <string name="bmi">BMI指数：</string>
+    <string name="hp_edit">修改</string>
+    <string name="hp_post">提交</string>
+
+    <!--fitting room -->
+    <string name="fr_bt_cloth_detail">衣服详情…</string>
+    <string name="fr_3D_fit">3D试衣…</string>
+    <string name="fr_show_3D">试衣展示</string>
+    <string name="fr_yes">确定</string>
+    <string name="fr_cannel">取消</string>
+    <string name="fr_delete1">你确定要删除</string>
+    <string name="fr_delete2">吗？</string>
+    <string name="fr_finish_delete">你删除了</string>
+    <string name="try_move_char">现在你可以移动人物了～～</string>
+
+    <!--sign -->
     <string name="pic_get_error">图片获取失败～</string>
     <string name="sign_success">签到成功～</string>
+    <string name="have_been_signed">你已经签到过啦～O(∩_∩)O～</string>
+    <string name="sign_notion_to_no_sign">今日签到别忘了 ～┑(￣Д ￣)┍～</string>
 
-    <!--chat的string文件-->
-    <string name="action_settings">Settings</string>
+    <!--feedback-->
+    <string name="fb_feedback">IChange问题反馈</string>
+    <string name="fb_common_issue">IChange常见问题</string>
+    <string name="fb_feedback_url">https://github.com/NullAerber/iChange/issues</string>
+    <string name="fb_common_issue_url">https://github.com/NullAerber/iChange</string>
+    <string name="fb_content">您好，很希望得到您的意见，由于没有目前这个APP处于版权申请中，所以GitHub暂时不放源码。 您可以在GitHub的空项目Issues处处说明问题原因，也可以通过以下方式联系我，我将根据情况尽量处理哦 ~</string>
+    <string name="fb_issues">Issues</string>
+    <string name="fb_connect_me">联系我</string>
+    <string name="fb_qq">QQ:1019735081</string>
+    <string name="fb_email">Email: 1019735081@qq.com</string>
+    <string name="fb_github">Girhub:NullAerber</string>
+
+    <!--about us -->
+    <string name="au_current_version">当前版本 V</string>
+    <string name="au_update">检查更新</string>
+    <string name="au_update_log">更新日志</string>
+    <string name="au_star">给程序员一个star吧～</string>
+    <string name="au_footer">很高兴您能使用，如感到满意请Star一下吧 我们将继续迭代，增加更多功能，O(∩_∩)O ~</string>
+
+    
+    <!--search-->
+    <string name="actionbar_search">搜索</string>
+    <string name="search_cannot_null">搜索不能为空！</string>
+    <string name="search_finish">查找结束～</string>
+
+
+    <!--main fragment-->
+    <string name="mfg_index">首页</string>
+    <string name="mfg_ranking">热销榜</string>
+    <string name="mfg_designer">设计师</string>
+    <string name="search">查找</string>
+
+    <!--subindex-->
+    <string name="si_designer">设计师</string>
+    <string name="si_circle">千金圈</string>
+    <string name="si_murmur">碎碎念</string>
+    <string name="si_clothDetail_path">com.carporange.ichange.ui.activity.ClothDetailActivity</string>
+    <string name="si_webAct_path">com.carporange.ichange.ui.activity.WebActivity</string>
+    <string name="si_designeDetail_path">com.carporange.ichange.ui.activity.DesignerDetailActivity</string>
+    <string name="si_ranking">热门销售榜</string>
+
+    <!--rank list-->
+    <string name="rl_detail">详情…</string>
+
+    <!--designer list-->
+    <string name="df_other">其他</string>
+    <string name="df_click_for_more">点击图片获取更多</string>
+
+    <!--circle frgment-->
+
+
+    <!--the string resource for chatting function  -->
+    <string name="chat_connect_success">连接成功</string>
+    <string name="action_settings">设置</string>
     <string name="login_username_hint">请输入用户名&#8230;</string>
     <string name="login_password_hint">请输入密码&#8230;</string>
     <string name="login_email_hint">请再次输入密码&#8230;</string>
@@ -61,18 +160,29 @@
     <string name="voice_seconds_tips">还可以说%1$s秒</string>
     <string name="voice_short_tips">录音时间太短</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_user_info">UserInfoActivity</string>
-    <string name="description">Description</string>
-    <string name="designer_detail_domain">www.ichange.top/designer/</string>
-    <string name="search_cannot_null">搜索不能为空！</string>
-    <string name="search_finish">查找结束～</string>
-    <string name="have_been_signed">你已经签到过啦～O(∩_∩)O～</string>
-    <string name="try_move_char">现在你可以移动人物了～～</string>
-    <string name="no_network">你没有连接网络～请确认你的网络连接！</string>
+    <!--the string resource for web function  -->
+    <string name="action_share">分享</string>
+    <string name="actionbar_more">更多信息</string>
+    <string name="actionbar_webview_share">分享到</string>
+    <string name="actionbar_webview_cope">复制链接</string>
+    <string name="actionbar_webview_open">打开链接</string>
+    <string name="actionbar_share">分享给朋友\(^o^)/~</string>
+    <string name="web_share_from">（分享自Ichange）</string>
+    <string name="web_copy_success">复制成功～</string>
+
+    <!--the string resource for comment function-->
     <string name="circle_say_something">说点什么吧...</string>
     <string name="input_cannot_null">输入内容不可以为空</string>
-    <string name="delete_own_comment">删除自己的评论</string>
     <string name="comment_num_text">评论</string>
     <string name="comment_fail">评论失败～请检查网络～</string>
+
+
+    <!---->
+    <!--the string resource for designer detail activity  -->
+    <!---->
+    <string name="designer_detail_domain">www.ichange.top/designer/</string>
+    <string name="mf_editor">小编：C酱</string>
+    <string name="mf_more">更多…</string>
+
+
 </resources>

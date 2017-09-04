@@ -154,7 +154,7 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), SearchActivity.class);
-                        intent.putExtra("bar_title", "查找");
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.search));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();

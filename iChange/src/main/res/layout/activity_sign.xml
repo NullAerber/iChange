@@ -42,7 +42,7 @@
                 android:clickable="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="今日签到别忘了  ～┑(￣Д ￣)┍～"
+                android:text="@string/sign_notion_to_no_sign"
                 android:textColor="@color/colorTheme"
                 android:textSize="12sp" />
         </LinearLayout>

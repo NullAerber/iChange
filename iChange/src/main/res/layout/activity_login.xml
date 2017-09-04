@@ -91,7 +91,7 @@
             android:layout_marginLeft="5dp"
             android:gravity="center_vertical"
             android:text="@string/register_txt2"
-            android:textColor="@color/Themered"
+            android:textColor="@color/colorTheme"
             android:textSize="20sp" />
     </LinearLayout>
 

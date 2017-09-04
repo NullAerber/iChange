@@ -36,8 +36,8 @@
                 android:layout_width="@dimen/movie_detail_width"
                 android:layout_height="@dimen/movie_detail_height"
                 android:layout_marginRight="15dp"
-                android:scaleType="fitXY"
-                android:transitionName="@string/transition_movie_img" />
+                android:scaleType="fitXY" />
+                <!--android:transitionName="@string/transition_movie_img" />-->
 
             <!--评分-->
             <LinearLayout

@@ -88,13 +88,13 @@ public class DatePicker2 extends LinearLayout {
         // 年份显示
         tvYear = new TextView(context);
         tvYear.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
-        tvYear.setTextColor(getResources().getColor(R.color.Themered));
+        tvYear.setTextColor(getResources().getColor(R.color.colorTheme));
 
         // 月份显示
         tvMonth = new TextView(context);
         tvMonth.setId(ID_tvMonth);
         tvMonth.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
-        tvMonth.setTextColor(getResources().getColor(R.color.Themered));
+        tvMonth.setTextColor(getResources().getColor(R.color.colorTheme));
 
         // 确定显示
 //        tvEnsure = new TextView(context);

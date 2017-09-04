@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="当前版本  V1.0.0 "
+            android:text="@string/au_current_version"
             android:textColor="@color/colorSubtitle"
             android:textSize="13sp" />
 
@@ -50,7 +50,7 @@
                     android:id="@+id/tv_new_version"
                     style="@style/menuItem"
                     android:clickable="true"
-                    android:text="检查更新" />
+                    android:text="@string/au_update" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                 android:id="@+id/tv_function"
                 style="@style/menuItem"
                 android:clickable="true"
-                android:text="更新日志" />
+                android:text="@string/au_update_log" />
 
             <View
                 style="@style/horizontalLine"
@@ -82,7 +82,7 @@
                 android:id="@+id/tv_about_star"
                 style="@style/menuItem"
                 android:clickable="true"
-                android:text="给程序员一个star吧～" />
+                android:text="@string/au_star" />
 
 
         </LinearLayout>
@@ -95,7 +95,7 @@
             android:lineSpacingExtra="2dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="很高兴您能使用，如感到满意请Star一下吧\n我们将继续迭代，增加更多功能，O(∩_∩)O ~"
+            android:text="@string/au_footer"
             android:textColor="@color/colorSubtitle"
             android:textSize="14sp" />
 

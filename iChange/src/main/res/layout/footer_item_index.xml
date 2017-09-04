@@ -18,8 +18,7 @@
         android:layout_below="@+id/line"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:text="已经到栏目底部了，没有更多了～(≧▽≦)
-"
+        android:text="@string/footer"
         android:textColor="#7D7D7D"
         android:textSize="10sp" />
 
@@ -39,7 +38,7 @@
             android:id="@+id/tv_back2top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="返回顶部"
+            android:text="@string/backUP"
             android:textColor="@color/colorTheme"
             android:textSize="12sp" />
     </LinearLayout>

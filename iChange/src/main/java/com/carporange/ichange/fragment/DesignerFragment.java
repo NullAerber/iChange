@@ -60,8 +60,8 @@ public class DesignerFragment extends BaseFragment implements View.OnClickListen
         list_url = new ArrayList<>();
 
         View title_four = view_designer.findViewById(R.id.index_title_four);
-        ((TextView) title_four.findViewById(R.id.tv_title_type)).setText("其他");
-        ((TextView) title_four.findViewById(R.id.tv_more)).setText("点击图片获取更多");
+        ((TextView) title_four.findViewById(R.id.tv_title_type)).setText(R.string.df_other);
+        ((TextView) title_four.findViewById(R.id.tv_more)).setText(R.string.df_click_for_more);
         //返回顶部按钮
         (view_designer.findViewById(R.id.ll_back2top_item)).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,7 +87,7 @@ public class DesignerFragment extends BaseFragment implements View.OnClickListen
 
                         byte[] data = new byte[0];
                         try {
-                            data = ImageService.getImage(getString(R.string.LinkUrl) + "designerlist/" + (i+1) +".jpg");
+                            data = ImageService.getImage(getString(R.string.LINKUSRL) + "designerlist/" + (i+1) +".jpg");
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -184,7 +184,7 @@ public class DesignerFragment extends BaseFragment implements View.OnClickListen
                     });
 
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();
@@ -217,7 +217,7 @@ public class DesignerFragment extends BaseFragment implements View.OnClickListen
             public void run() {
                 Looper.prepare();
                 Intent intent = new Intent(getActivity(), DesignerDetailActivity.class);
-                intent.putExtra("url", list_url.get(id));
+                intent.putExtra(getString(R.string.URL), list_url.get(id));
                 getActivity().startActivity(intent);
                 handler.sendEmptyMessage(0);
                 Looper.loop();

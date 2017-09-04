@@ -33,7 +33,7 @@ public class WebActivity extends AerberBaeeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         initWebView();
     }
@@ -48,12 +48,12 @@ public class WebActivity extends AerberBaeeActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.actionbar_share:// 分享到
-                String shareText = url + "（分享自Ichange）";
+                String shareText = url + getString(R.string.web_share_from);
                 ShareUtils.share(WebActivity.this, shareText);
                 break;
             case R.id.actionbar_cope:// 复制链接
                 BaseTools.copy(url);
-                Snackbar.make(webView, "复制成功～", Snackbar.LENGTH_SHORT)
+                Snackbar.make(webView, R.string.web_copy_success, Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
                 break;
             case R.id.actionbar_open:// 打开链接
@@ -66,7 +66,7 @@ public class WebActivity extends AerberBaeeActivity {
     private void initWebView() {
         webView = (WebView) findViewById(R.id.webview_detail);
         WebSettings ws = webView.getSettings();
-        url = this.getIntent().getStringExtra("url");
+        url = this.getIntent().getStringExtra(getString(R.string.URL));
 
         // 排版适应屏幕
         ws.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);

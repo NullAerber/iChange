@@ -20,10 +20,8 @@ import android.widget.Toast;
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.activity.AboutActivity;
 import com.carporange.ichange.ui.activity.HomepageActivity;
-import com.carporange.ichange.ui.activity.IssueActivity;
-import com.carporange.ichange.ui.activity.SettingActivity;
+import com.carporange.ichange.ui.activity.FeedbackActivity;
 import com.carporange.ichange.ui.activity.SignActivity;
-import com.carporange.ichange.ui.activity.TryActivity;
 import com.carporange.ichange.ui.activity.TryListActivity;
 import com.carporange.ichange.ui.activity.WebActivity;
 import com.carporange.ichange.util.ImageService;
@@ -36,8 +34,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.imdemo.bean.User;
 import cn.bmob.imdemo.model.UserModel;
+import cn.bmob.imdemo.ui.MainActivity;
 
 public class MenuLeftFragment extends Fragment implements View.OnClickListener {
     View view_menu_left;
@@ -73,7 +71,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
         ll_recent = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_recent);
         ll_third = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_third);
         ll_issue = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_issue);
-        ll_setting = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_setting);
+//        ll_setting = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_setting);
         ll_about = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_about);
         ll_sign = (LinearLayout) view_menu_left.findViewById(R.id.ll_nav_sign);
 
@@ -96,7 +94,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     String response = linkerServer.getResponse();
                     byte[] data = new byte[0];
                     try {
-                        data = ImageService.getImage(getString(R.string.LinkUrl) + "user/" + response + ".png");
+                        data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/" + response + ".png");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -110,7 +108,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                         }
                     });
                 } else {
-                    Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                 }
                 handler.sendEmptyMessage(0);
                 Looper.loop();
@@ -127,7 +125,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), HomepageActivity.class);
-                        intent.putExtra("bar_title", "个人首页");
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.hp));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -139,8 +137,8 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     @Override
                     public void run() {
                         Looper.prepare();
-                        Intent intent = new Intent(getActivity(), cn.bmob.imdemo.ui.MainActivity.class);
-                        intent.putExtra("bar_title", "最近联系人");
+                        Intent intent = new Intent(getActivity(), MainActivity.class);
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.rc));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -153,7 +151,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), TryListActivity.class);
-                        intent.putExtra("bar_title", "试衣间");
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.fr));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -166,8 +164,8 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), WebActivity.class);
-                        intent.putExtra("url", "http://github.com/login");
-                        intent.putExtra("bar_title", "登录第三方网站");
+                        intent.putExtra(getString(R.string.URL), getString(R.string.tp_github_login));
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.tp));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -179,30 +177,30 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     @Override
                     public void run() {
                         Looper.prepare();
-                        Intent intent = new Intent(getActivity(), IssueActivity.class);
-                        intent.putExtra("bar_title", "问题反馈");
+                        Intent intent = new Intent(getActivity(), FeedbackActivity.class);
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.fb));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
                     }
                 }).start();
                 break;
-            case R.id.ll_nav_setting:
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Intent intent = new Intent(getActivity(), SettingActivity.class);
-                        getActivity().startActivity(intent);
-                    }
-                }).start();
-                break;
+//            case R.id.ll_nav_setting:
+//                new Thread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        Intent intent = new Intent(getActivity(), SettingActivity.class);
+//                        getActivity().startActivity(intent);
+//                    }
+//                }).start();
+//                break;
             case R.id.ll_nav_about:
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
                         Looper.prepare();
                         Intent intent = new Intent(getActivity(), AboutActivity.class);
-                        intent.putExtra("bar_title", "关于我们");
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.au));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);
                         Looper.loop();
@@ -224,14 +222,14 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                         if (linkerServer.Linker()) {
                             response = linkerServer.getResponse();
                         } else {
-                            Toast.makeText(getActivity(), R.string.request_fail, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), R.string.REQUEST_FAIL, Toast.LENGTH_SHORT).show();
                         }
 
                         Intent intent = new Intent(getActivity(), SignActivity.class);
-                        intent.putExtra("response", response);
-                        intent.putExtra("username",
+                        intent.putExtra(getString(R.string.URL), response);
+                        intent.putExtra(getString(R.string.USERNAME),
                                 ((TextView) view_menu_left.findViewById(R.id.tv_username)).getText().toString());
-                        intent.putExtra("bar_title", "每日签到");
+                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.sign));
                         getActivity().startActivity(intent);
 
                         handler.sendEmptyMessage(0);

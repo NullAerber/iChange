@@ -99,7 +99,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
 
                 String replyName = commentUser.getName().trim();
-                input_edit.setHint("回复:" + replyName);
+                input_edit.setHint(context.getString(R.string.comment_reply) + replyName);
                 send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
@@ -116,7 +116,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
                 int pos = (Integer) view.getTag(CommentTagHandler.KEY_COMMENT_ITEM_POSITION);
 
                 String replyName = replyUser.getName().trim();
-                input_edit.setHint("回复:" + replyName);
+                input_edit.setHint(context.getString(R.string.comment_reply) + replyName);
                 send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);
@@ -142,7 +142,7 @@ public class DynamicListAdapter extends RecyclerView.Adapter<DynamicListAdapter.
 //                }
 
                 String replyName = user.getName().trim();
-                input_edit.setHint("回复:" + replyName);
+                input_edit.setHint(context.getString(R.string.comment_reply) + replyName);
                 send_btn.setTag(CommentTagHandler.KEY_REPLYER, replyName);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_LIST, commentList);
                 send_btn.setTag(CommentTagHandler.KEY_COMMENT_ADAPTER, commentAdapter);

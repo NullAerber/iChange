@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 
 /**
@@ -61,21 +62,21 @@ public class SignActivity extends AerberBaeeActivity {
         signed_data = new ArrayList<>();
         String response = this.getIntent().getStringExtra(getString(R.string.URL));
 
-        if (response != null && response != "") {
+        if (response != null && !Objects.equals(response, " ")) {
             String[] str_record = response.split("\\|");
-            for (int i = 0; i < str_record.length; ++i) {
-                signed_data.add(str_record[i]);
+            for (String aStr_record : str_record) {
+                signed_data.add(aStr_record);
             }
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            String str_day = sdf.format(new Date());
+            if (signed_data.remove(str_day)) {
+                tv_sign.setText(R.string.have_been_signed);
+                tv_sign.setTextColor(Color.GRAY);
+                ll_sign_bottom.setClickable(false);
+                tv_sign.setClickable(false);
+            }
+            DPCManager.getInstance().setDecorBG(signed_data);
         }
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        String str_day = sdf.format(new Date());
-        if (signed_data.remove(str_day)) {
-            tv_sign.setText(R.string.have_been_signed);
-            tv_sign.setTextColor(Color.GRAY);
-            ll_sign_bottom.setClickable(false);
-            tv_sign.setClickable(false);
-        }
-        DPCManager.getInstance().setDecorBG(signed_data);
     }
 
     private void initListener() {
@@ -101,9 +102,9 @@ public class SignActivity extends AerberBaeeActivity {
                                     tv_sign.setTextColor(Color.GRAY);
                                     ll_sign_bottom.setClickable(false);
                                     tv_sign.setClickable(false);
-                                    toast(getString(R.string.sign_success));
                                 }
                             });
+                            toast(getString(R.string.sign_success));
                         } else toast(getString(R.string.REQUEST_FAIL));
                     }
                 }).start();

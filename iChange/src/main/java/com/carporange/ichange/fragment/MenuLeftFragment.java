@@ -46,7 +46,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
     LinearLayout ll_recent;
     LinearLayout ll_third;
     LinearLayout ll_issue;
-    LinearLayout ll_setting;
+//    LinearLayout ll_setting;
     LinearLayout ll_about;
     LinearLayout ll_sign;
 
@@ -247,7 +247,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
         ll_recent.setOnClickListener(this);
         ll_third.setOnClickListener(this);
         ll_issue.setOnClickListener(this);
-        ll_setting.setOnClickListener(this);
+//        ll_setting.setOnClickListener(this);
         ll_try.setOnClickListener(this);
         ll_about.setOnClickListener(this);
         ll_sign.setOnClickListener(this);

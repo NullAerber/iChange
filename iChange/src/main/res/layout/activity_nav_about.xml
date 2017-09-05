@@ -69,7 +69,7 @@
                 android:layout_marginLeft="10dp" />
 
             <TextView
-                android:id="@+id/tv_function"
+                android:id="@+id/tv_update_log"
                 style="@style/menuItem"
                 android:clickable="true"
                 android:text="@string/au_update_log" />

@@ -87,7 +87,7 @@
 
     
     <!--search-->
-    <string name="actionbar_search">搜索</string>
+    <string name="search">查找</string>
     <string name="search_cannot_null">搜索不能为空！</string>
     <string name="search_finish">查找结束～</string>
 
@@ -96,7 +96,6 @@
     <string name="mfg_index">首页</string>
     <string name="mfg_ranking">热销榜</string>
     <string name="mfg_designer">设计师</string>
-    <string name="search">查找</string>
 
     <!--subindex-->
     <string name="si_designer">设计师</string>
@@ -114,7 +113,7 @@
     <string name="df_other">其他</string>
     <string name="df_click_for_more">点击图片获取更多</string>
 
-    <!--circle frgment-->
+
 
 
     <!--the string resource for chatting function  -->
@@ -172,17 +171,17 @@
 
     <!--the string resource for comment function-->
     <string name="circle_say_something">说点什么吧...</string>
+    <string name="comment_reply">回复:</string>
     <string name="input_cannot_null">输入内容不可以为空</string>
     <string name="comment_num_text">评论</string>
     <string name="comment_fail">评论失败～请检查网络～</string>
 
 
-    <!---->
     <!--the string resource for designer detail activity  -->
-    <!---->
     <string name="designer_detail_domain">www.ichange.top/designer/</string>
     <string name="mf_editor">小编：C酱</string>
     <string name="mf_more">更多…</string>
+    <string name="au_no_new">没有更新哦～</string>
 
 
 </resources>

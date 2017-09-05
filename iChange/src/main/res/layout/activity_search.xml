@@ -11,7 +11,7 @@
         android:id="@+id/searchBarlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search"
+        android:hint="@string/search"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 

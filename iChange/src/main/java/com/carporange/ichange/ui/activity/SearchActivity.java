@@ -42,7 +42,7 @@ public class SearchActivity extends AerberBaeeActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        initBar(this.getIntent().getStringExtra("bar_title"));
+        initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         initView();
         RealTimeSearch();
@@ -160,7 +160,7 @@ public class SearchActivity extends AerberBaeeActivity {
                         .setText(tag)
                         .setTextResourceColor(R.color.black_button))
                 .addAction(R.id.right_text_button, new TextViewAction(this)
-                        .setText("详情…")
+                        .setText(getString(R.string.rl_detail))
                         .setTextResourceColor(R.color.colorTheme)
                         .setListener(new OnActionClickListener() {
                             @Override
@@ -169,7 +169,7 @@ public class SearchActivity extends AerberBaeeActivity {
                                     @Override
                                     public void run() {
                                         Intent intent = new Intent(SearchActivity.this, ClothDetailActivity.class);
-                                        intent.putExtra("url", id);
+                                        intent.putExtra(getString(R.string.URL), id);
                                         SearchActivity.this.startActivity(intent);
                                     }
                                 }).start();

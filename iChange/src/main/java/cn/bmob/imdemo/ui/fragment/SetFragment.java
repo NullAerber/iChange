@@ -69,7 +69,7 @@ public class SetFragment extends ParentWithNaviFragment {
         UserModel.getInstance().logout();
         //可断开连接
         BmobIM.getInstance().disConnect();
-        getActivity().finish();
+//        getActivity().finish();
         startActivity(LoginActivity.class,null);
     }
 }

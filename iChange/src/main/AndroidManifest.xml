@@ -54,7 +54,7 @@
 
 
         <activity android:name="cn.bmob.imdemo.ui.LoginActivity" />
-        <activity android:name="cn.bmob.imdemo.ui.MainActivity" />
+        <activity android:name="cn.bmob.imdemo.ui.ChatMainActivity" />
         <activity android:name="cn.bmob.imdemo.ui.RegisterActivity" />
         <activity android:name="cn.bmob.imdemo.ui.SearchUserActivity" />
         <activity android:name="cn.bmob.imdemo.ui.UserInfoActivity" />

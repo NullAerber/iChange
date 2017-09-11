@@ -1,6 +1,8 @@
 package cn.bmob.imdemo.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +16,7 @@ import butterknife.Bind;
 import butterknife.OnClick;
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.activity.*;
+import com.carporange.ichange.ui.base.CarporangeBaseActivity;
 
 import cn.bmob.imdemo.base.BaseActivity;
 import cn.bmob.imdemo.bean.User;
@@ -82,8 +85,9 @@ public class LoginActivity extends BaseActivity {
                 Toast.makeText(getApplicationContext(), "再按一次退出程序", Toast.LENGTH_SHORT).show();
                 exitTime = System.currentTimeMillis();
             } else {
-                finish();
-                android.os.Process.killProcess(android.os.Process.myPid());
+                Intent intent = new Intent("com.carporange.ichange.ui.base.CarporangeBaseActivity");
+                intent.putExtra("closeAll", 1);
+                sendBroadcast(intent);//发送广播
             }
             return true;
         }

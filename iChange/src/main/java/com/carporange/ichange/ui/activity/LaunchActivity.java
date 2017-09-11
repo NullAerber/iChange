@@ -5,6 +5,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -15,6 +16,7 @@ import cn.bmob.imdemo.base.BaseActivity;
 import cn.bmob.imdemo.bean.User;
 import cn.bmob.imdemo.model.UserModel;
 import cn.bmob.imdemo.ui.LoginActivity;
+import cn.bmob.v3.BmobUser;
 
 
 /**

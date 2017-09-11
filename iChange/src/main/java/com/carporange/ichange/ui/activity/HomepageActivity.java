@@ -1,19 +1,36 @@
 package com.carporange.ichange.ui.activity;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Looper;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.base.AerberBaeeActivity;
+import com.carporange.ichange.util.ImageService;
+import com.carporange.ichange.util.LinkerServer;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.bmob.imdemo.model.UserModel;
 
 
 /**
@@ -54,6 +71,39 @@ public class HomepageActivity extends AerberBaeeActivity {
             }
         });
 
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                List<NameValuePair> params = new ArrayList<>();
+                if (UserModel.getInstance().getCurrentUser() == null){
+                    System.exit(0);
+                }
+
+                params.add(new BasicNameValuePair("username",
+                        UserModel.getInstance().getCurrentUser().getUsername()));
+                LinkerServer linkerServer = new LinkerServer("user",params);
+                if (linkerServer.Linker()) {
+                    String response = linkerServer.getResponse();
+                    byte[] data = new byte[0];
+                    try {
+                        data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/" + response + ".png");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    final byte[] finalData = data;
+                    final Drawable avatar = new BitmapDrawable(BitmapFactory.decodeByteArray(finalData, 0, finalData.length));
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            ((ImageView)findViewById(R.id.account_img_usertitle)).setImageDrawable(avatar);
+                            ((TextView)findViewById(R.id.tv_name)).setText(UserModel.getInstance().getCurrentUser().getUsername());
+                        }
+                    });
+                } else {
+                    toast(getString(R.string.REQUEST_FAIL));
+                }
+            }
+        }).start();
     }
 
     /**

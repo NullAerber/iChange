@@ -31,6 +31,7 @@ import org.apache.http.message.BasicNameValuePair;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Stack;
 
 import cn.bmob.imdemo.model.UserModel;
@@ -43,7 +44,6 @@ public class TryListActivity extends AerberBaeeActivity {
     private MaterialListView mListView;
 
     Stack<Card> cards;
-    String response;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +56,7 @@ public class TryListActivity extends AerberBaeeActivity {
         mListView.setOnDismissCallback(new OnDismissCallback() {
             @Override
             public void onDismiss(@NonNull Card card, int position) {
-                showCenterPopupWindow(mListView,card);
+                showCenterPopupWindow(mListView, card);
             }
         });
     }
@@ -73,7 +73,7 @@ public class TryListActivity extends AerberBaeeActivity {
                 LinkerServer linkerServer = new LinkerServer("try", params);
 
                 if (linkerServer.Linker()) {
-                    response = linkerServer.getResponse();
+                    String response = linkerServer.getResponse();
                     final String[] id_record = response.split("\\|");
 
                     for (int i = 0; i < id_record.length; ++i) {
@@ -85,7 +85,7 @@ public class TryListActivity extends AerberBaeeActivity {
                             response = linkerServer_detail.getResponse();
                             final String[] str_record = response.split(";");
                             cards.push(CreateNewCard(str_record[0], str_record[1], str_record[2],
-                                    id_record[i]));
+                                    id_record[i], str_record[3]));
                         } else toast(getString(R.string.REQUEST_FAIL));
 
                     }
@@ -95,14 +95,14 @@ public class TryListActivity extends AerberBaeeActivity {
                             mListView.getAdapter().addAll(cards);
                         }
                     });
-                }else toast(getString(R.string.REQUEST_FAIL));
+                } else toast(getString(R.string.REQUEST_FAIL));
             }
         }).start();
 
     }
 
     private Card CreateNewCard(final String title, String designer,
-                               String description, final String id) {
+                               String description, final String id, final String try_avilable) {
         final CardProvider provider = new Card.Builder(this)
                 .setTag(id)
                 .setDismissible()
@@ -137,9 +137,14 @@ public class TryListActivity extends AerberBaeeActivity {
                                 new Thread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Intent intent = new Intent(TryListActivity.this, TryActivity.class);
-                                        intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.fr_show_3D));
-                                        TryListActivity.this.startActivity(intent);
+                                        if (Objects.equals(try_avilable, "0"))
+                                            toast(getString(R.string.try_no_model));
+                                        else {
+                                            Intent intent = new Intent(TryListActivity.this, TryActivity.class);
+                                            intent.putExtra(getString(R.string.BAR_TITLE), title);
+                                            intent.putExtra(getString(R.string.URL),id);
+                                            TryListActivity.this.startActivity(intent);
+                                        }
                                     }
                                 }).start();
                             }
@@ -169,16 +174,17 @@ public class TryListActivity extends AerberBaeeActivity {
 
     /**
      * 中间弹出PopupWindow
+     * <p>
+     * 设置PopupWindow以外部分有一中变暗的效果
      *
-     *  设置PopupWindow以外部分有一中变暗的效果
-     * @param view  parent view
+     * @param view parent view
      */
     public void showCenterPopupWindow(View view, final Card card) {
         View contentView = LayoutInflater.from(this).inflate(R.layout.popupwindowcheck_layout, null);
         final PopupWindow popupWindow = new PopupWindow(contentView, LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        TextView tvTitle = (TextView)contentView.findViewById(R.id.tv_title);
-        TextView tvConfirm = (TextView)contentView.findViewById(R.id.tv_confirm);
-        TextView tvCancel = (TextView)contentView.findViewById(R.id.tv_cancel);
+        TextView tvTitle = (TextView) contentView.findViewById(R.id.tv_title);
+        TextView tvConfirm = (TextView) contentView.findViewById(R.id.tv_confirm);
+        TextView tvCancel = (TextView) contentView.findViewById(R.id.tv_cancel);
         tvTitle.setText(getString(R.string.fr_delete1) + card.getProvider().getTitle() + getString(R.string.fr_delete2));
         tvConfirm.setText(R.string.fr_yes);
         tvCancel.setText(R.string.fr_cannel);
@@ -196,7 +202,7 @@ public class TryListActivity extends AerberBaeeActivity {
                         LinkerServer linkerServer = new LinkerServer("try_delete", params);
                         if (linkerServer.Linker()) {
                             toast(getString(R.string.fr_finish_delete) + card.getProvider().getTitle());
-                        }else {
+                        } else {
                             toast(getString(R.string.REQUEST_FAIL));
                             runOnUiThread(new Runnable() {
                                 @Override
@@ -236,6 +242,6 @@ public class TryListActivity extends AerberBaeeActivity {
         //设置PopupWindow进入和退出动画
         popupWindow.setAnimationStyle(R.style.anim_popup_centerbar);
         // 设置PopupWindow显示在中间
-        popupWindow.showAtLocation(view, Gravity.CENTER,0,0);
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
     }
 }

@@ -10,6 +10,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5470551-8714-487e-aecf-f3c6d4b96fe6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-04-21-54-22-160.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-04-21-55-13-160.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-52-59-097.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-54-48-277.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-56-23-070.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-59-54-859.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-01-04-841.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-03-52-576.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-06-38-069.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-09-15-024.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-10-40-049.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-11-21-131.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-15-29-591.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p9.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/ChatMainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -17,14 +83,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/iChange.iml" afterPath="$PROJECT_DIR$/iChange/iChange.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/iChange/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/DemoMessageHandler.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/DemoMessageHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/SearchUserActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/SearchUserActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/AboutActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/AboutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SearchActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SignActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SignActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_about.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materialList/materialList.iml" afterPath="$PROJECT_DIR$/materialList/materialList.iml" />
@@ -60,7 +144,85 @@
     <favorites_list name="iChangePrivate" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+              <folding>
+                <element signature="docComment;class#BaseActivity#0" expanded="false" />
+                <element signature="method#onStart#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#onStop#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#setContentView#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#setContentView#1;class#BaseActivity#0" expanded="false" />
+                <element signature="method#onEvent#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#startActivity#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#getBundle#0;class#BaseActivity#0" expanded="false" />
+                <element signature="docComment;method#hideSoftInputView#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#hideSoftInputView#0;class#BaseActivity#0" expanded="false" />
+                <element signature="docComment;method#hideSoftInput#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#hideSoftInput#0;class#BaseActivity#0" expanded="false" />
+                <element signature="docComment;method#log#0;class#BaseActivity#0" expanded="false" />
+                <element signature="method#log#0;class#BaseActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuLeftFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+              <folding>
+                <element signature="e#6310#6339#0" expanded="true" />
+                <element signature="e#6341#6363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomepageActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="102" column="60" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#2154#2878#0" expanded="true" />
+                <element signature="e#2795#2827#0" expanded="true" />
+                <element signature="e#2877#2878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_nav_homepage_header.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="50" />
+              <folding>
+                <element signature="e#1824#1844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2758,27 +2920,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/CommentTagHandler.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/model/Comment.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/res/values-w820dp/drawables.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/detail_header.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/item_index_one.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/item_index_two.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/popupwindow_layout.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_sign.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/WebActivity.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/FeedbackActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_issue.xml" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/iChange/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/values/drawables.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/IndexFragment.java" />
@@ -2794,18 +2944,39 @@
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SearchActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_search.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_about.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/AboutActivity.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SignActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/SearchUserActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/ChatMainActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/iChangeApplication.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2851,7 +3022,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2902,24 +3074,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iChangePrivate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iChange" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2940,28 +3094,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ichange" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iChangePrivate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iChange" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ichange" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3052,11 +3184,29 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ichange" />
+              <option name="myItemId" value="imdemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iChangePrivate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iChange" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imdemo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3072,9 +3222,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3410,7 +3559,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="772" extended-state="4" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3418,17 +3567,17 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6107492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24885845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24432677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66775244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3494,38 +3643,219 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="iChange">
         <watch expression="list_comment" />
         <watch expression="commentList" />
         <watch expression="comment" />
+        <watch expression="list_bitmap" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="305">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/event/RefreshEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/777f0a941d3dd0f9988d4f22b42b36ce2fe64ea4/eventbus-3.0.0-sources.jar!/org/greenrobot/eventbus/EventBus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="176">
+          <caret line="460" column="31" selection-start-line="460" selection-start-column="28" selection-end-line="460" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orhanobut/logger/1.4/7b2e6f14432233b91a4a83edb0552fea5abbc76c/logger-1.4-sources.jar!/com/orhanobut/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="367" column="18" selection-start-line="367" selection-start-column="18" selection-end-line="367" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/widget/Toast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/DemoMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="128" column="12" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7815">
+          <caret line="593" column="20" selection-start-line="593" selection-start-column="20" selection-end-line="593" selection-end-column="20" />
           <folding>
-            <element signature="e#1053#1082#0" expanded="true" />
-            <element signature="e#1679#1714#0" expanded="true" />
-            <element signature="e#5934#5970#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/ParentWithNaviFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.android/build-cache/7c22e1b09c9e37bc5015a81f8b97e4b6f729b9cf/output/jars/libs/BmobNewIM_2.0.5_20160601.jar!/cn/bmob/newim/core/ConnectionStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/iChangeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/BmobIMApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-compat/25.1.1/support-compat-25.1.1-sources.jar!/android/support/v4/app/SupportActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-fragment/25.1.1/support-fragment-25.1.1-sources.jar!/android/support/v4/app/BaseFragmentActivityGingerbread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-fragment/25.1.1/support-fragment-25.1.1-sources.jar!/android/support/v4/app/BaseFragmentActivityHoneycomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-fragment/25.1.1/support-fragment-25.1.1-sources.jar!/android/support/v4/app/BaseFragmentActivityJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-fragment/25.1.1/support-fragment-25.1.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2179#2180#0" expanded="false" />
+            <element signature="e#2245#2246#0" expanded="false" />
+            <element signature="e#2316#2317#0" expanded="false" />
+            <element signature="e#2340#2341#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="108" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="108" />
+          <folding>
+            <element signature="e#2214#2215#0" expanded="false" />
+            <element signature="e#2269#2270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml">
@@ -3533,322 +3863,79 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4305">
-          <caret line="287" column="28" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
+        <state relative-caret-position="251">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialList/src/main/java/com/dexafree/materialList/card/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
-            <element signature="e#2752#2764#0" expanded="false" />
-            <element signature="e#3604#3616#0" expanded="false" />
-            <element signature="e#4453#4465#0" expanded="false" />
-            <element signature="e#5303#5317#0" expanded="false" />
-            <element signature="e#6154#6166#0" expanded="false" />
-            <element signature="e#7182#7194#0" expanded="false" />
-            <element signature="e#9097#9109#0" expanded="false" />
+            <element signature="e#1101#1102#0" expanded="false" />
+            <element signature="e#1128#1129#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_setting.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/ChatMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SettingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_try_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        <state relative-caret-position="530">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
           <folding>
-            <element signature="e#1658#1687#0" expanded="false" />
-            <element signature="e#4475#4502#0" expanded="false" />
-            <element signature="e#5090#5113#0" expanded="false" />
-            <element signature="e#5453#5471#0" expanded="false" />
-            <element signature="e#6051#6080#0" expanded="false" />
-            <element signature="e#6082#6112#0" expanded="false" />
-            <element signature="e#7820#7850#0" expanded="false" />
-            <element signature="e#7885#7915#0" expanded="false" />
-            <element signature="e#7987#8005#0" expanded="false" />
-            <element signature="e#8769#8805#0" expanded="false" />
+            <marker date="1504683925539" expanded="false" signature="2382:2422" ph="&quot;连接成功&quot;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_web_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="58">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <folding>
+            <element signature="e#3395#5799#0" expanded="false" />
+            <element signature="e#5798#5799#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/adapter/base/BaseRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="206" column="36" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
+          <folding>
+            <element signature="e#6045#6360#0" expanded="false" />
+            <element signature="e#6359#6360#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="5861" column="25" selection-start-line="5861" selection-start-column="25" selection-end-line="5861" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/util/Log.java">
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/25.1.1/recyclerview-v7-25.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#2267#2296#0" expanded="false" />
-            <element signature="e#3407#3429#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_issue.xml">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
-          <folding>
-            <element signature="e#1096#1116#0" expanded="false" />
-            <element signature="e#1707#1726#0" expanded="false" />
-            <element signature="e#2266#2284#0" expanded="false" />
-            <element signature="e#2936#2961#0" expanded="false" />
-            <element signature="e#3594#3617#0" expanded="false" />
-            <element signature="e#4111#4126#0" expanded="false" />
-            <element signature="e#4739#4757#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/FeedbackActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#541#570#0" expanded="true" />
-            <element signature="e#842#865#0" expanded="true" />
-            <element signature="e#867#902#0" expanded="true" />
-            <element signature="e#937#966#0" expanded="true" />
-            <element signature="e#968#999#0" expanded="true" />
-            <element signature="e#1354#1377#0" expanded="true" />
-            <element signature="e#1379#1418#0" expanded="true" />
-            <element signature="e#1453#1482#0" expanded="true" />
-            <element signature="e#1484#1519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/build/intermediates/res/merged/debug/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="2459" column="23" selection-start-line="2459" selection-start-column="23" selection-end-line="2459" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="50">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/drawables.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="95" selection-start-line="2" selection-start-column="95" selection-end-line="2" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/IndexFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="80" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1526#1555#0" expanded="true" />
-            <element signature="e#1606#1637#0" expanded="true" />
-            <element signature="e#1688#1720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/index_title_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
-          <folding>
-            <element signature="e#1743#1763#0" expanded="false" />
-            <element signature="e#3638#3657#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/footer_item_index.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#723#739#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_index.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_ranklist.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/RankListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="128" column="78" selection-start-line="128" selection-start-column="78" selection-end-line="128" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/SubIndexFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="130" column="48" selection-start-line="130" selection-start-column="48" selection-end-line="130" selection-end-column="48" />
-          <folding>
-            <element signature="e#4222#4241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_designer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/DesignerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1887#1904#0" expanded="true" />
-            <element signature="e#1974#2000#0" expanded="true" />
-            <element signature="e#2099#2377#0" expanded="true" />
-            <element signature="e#2376#2377#0" expanded="true" />
-            <element signature="e#2436#9112#0" expanded="true" />
-            <element signature="e#3129#3157#0" expanded="true" />
-            <element signature="e#3722#4693#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
-            <element signature="e#4857#5828#0" expanded="true" />
-            <element signature="e#5827#5828#0" expanded="true" />
-            <element signature="e#5992#6986#0" expanded="true" />
-            <element signature="e#6985#6986#0" expanded="true" />
-            <element signature="e#7156#7733#0" expanded="true" />
-            <element signature="e#7732#7733#0" expanded="true" />
-            <element signature="e#7903#8480#0" expanded="true" />
-            <element signature="e#8479#8480#0" expanded="true" />
-            <element signature="e#8679#8865#0" expanded="true" />
-            <element signature="e#8864#8865#0" expanded="true" />
-            <element signature="e#8944#8965#0" expanded="true" />
-            <element signature="e#9111#9112#0" expanded="true" />
-            <element signature="e#9662#10084#0" expanded="true" />
-            <element signature="e#9888#9911#0" expanded="true" />
-            <element signature="e#10083#10084#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3857,246 +3944,181 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_murmur.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/adapter/DynamicListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="144" column="76" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
-          <folding>
-            <element signature="e#3926#3967#0" expanded="true" />
-            <element signature="e#5117#5158#0" expanded="true" />
-            <element signature="e#6766#6807#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1510#1539#0" expanded="true" />
-            <element signature="e#2191#2785#0" expanded="true" />
-            <element signature="e#2494#2521#0" expanded="true" />
-            <element signature="e#2683#2705#0" expanded="true" />
-            <element signature="e#2784#2785#0" expanded="true" />
-            <element signature="e#2853#3008#0" expanded="true" />
-            <element signature="e#3007#3008#0" expanded="true" />
-            <element signature="e#3462#4867#0" expanded="true" />
-            <element signature="e#4224#4777#0" expanded="true" />
-            <element signature="e#4776#4777#0" expanded="true" />
-            <element signature="e#4809#4841#0" expanded="true" />
-            <element signature="e#4866#4867#0" expanded="true" />
-            <element signature="e#6322#6351#0" expanded="true" />
-            <element signature="e#6456#7188#0" expanded="true" />
-            <element signature="e#6647#7122#0" expanded="true" />
-            <element signature="e#6938#6961#0" expanded="true" />
-            <element signature="e#7121#7122#0" expanded="true" />
-            <element signature="e#7187#7188#0" expanded="true" />
-            <element signature="e#7212#7912#0" expanded="true" />
-            <element signature="e#7397#7425#0" expanded="true" />
-            <element signature="e#7631#7886#0" expanded="true" />
-            <element signature="e#7885#7886#0" expanded="true" />
-            <element signature="e#7911#7912#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/CircleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/WebActivity.java">
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="99">
+          <caret line="9939" column="0" selection-start-line="9939" selection-start-column="0" selection-end-line="9939" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_search.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="2670" column="0" selection-start-line="2670" selection-start-column="0" selection-end-line="2670" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/bg1.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MurmurFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="226" column="31" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_about.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="81" column="46" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding>
-            <element signature="e#1219#1237#0" expanded="true" />
-            <element signature="e#1350#1389#0" expanded="true" />
-            <element signature="e#1415#1448#0" expanded="true" />
-            <element signature="e#1532#1571#0" expanded="true" />
-            <element signature="e#1597#1624#0" expanded="true" />
-            <element signature="e#1744#1767#0" expanded="true" />
-            <element signature="e#1799#1828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="229" column="69" selection-start-line="229" selection-start-column="69" selection-end-line="229" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/sign_calender/DPCManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#2131#2132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/SignActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="106" column="68" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2366#2391#0" expanded="true" />
-            <element signature="e#2710#4163#0" expanded="true" />
-            <element signature="e#2830#4129#0" expanded="true" />
-            <element signature="e#3983#4015#0" expanded="true" />
-            <element signature="e#4128#4129#0" expanded="true" />
-            <element signature="e#4162#4163#0" expanded="true" />
+            <element signature="e#7147#7363#0" expanded="true" />
+            <element signature="e#7362#7363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/LinkerServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/AerberBaeeActivity.java">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="e#6425#6448#0" expanded="true" />
+            <element signature="e#6930#6958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MurmurFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#1824#1844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MainFragment.java">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding>
+            <element signature="e#6310#6339#0" expanded="true" />
+            <element signature="e#6341#6363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/fragment_main.xml">
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_register.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/toolbar_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="15">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/activity_sign.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#BaseActivity#0" expanded="false" />
+            <element signature="method#onStart#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#onStop#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#setContentView#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#setContentView#1;class#BaseActivity#0" expanded="false" />
+            <element signature="method#onEvent#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#startActivity#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#getBundle#0;class#BaseActivity#0" expanded="false" />
+            <element signature="docComment;method#hideSoftInputView#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#hideSoftInputView#0;class#BaseActivity#0" expanded="false" />
+            <element signature="docComment;method#hideSoftInput#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#hideSoftInput#0;class#BaseActivity#0" expanded="false" />
+            <element signature="docComment;method#log#0;class#BaseActivity#0" expanded="false" />
+            <element signature="method#log#0;class#BaseActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="102" column="60" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#2154#2878#0" expanded="true" />
+            <element signature="e#2795#2827#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

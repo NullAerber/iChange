@@ -58,6 +58,7 @@
     <string name="fr_delete1">你确定要删除</string>
     <string name="fr_delete2">吗？</string>
     <string name="fr_finish_delete">你删除了</string>
+    <string name="try_no_model">此衣服暂无3D模型～</string>
     <string name="try_move_char">现在你可以移动人物了～～</string>
 
     <!--sign -->
@@ -84,6 +85,7 @@
     <string name="au_update_log">更新日志</string>
     <string name="au_star">给程序员一个star吧～</string>
     <string name="au_footer">很高兴您能使用，如感到满意请Star一下吧 我们将继续迭代，增加更多功能，O(∩_∩)O ~</string>
+    <string name="au_no_new">没有更新哦～</string>
 
     
     <!--search-->
@@ -181,7 +183,7 @@
     <string name="designer_detail_domain">www.ichange.top/designer/</string>
     <string name="mf_editor">小编：C酱</string>
     <string name="mf_more">更多…</string>
-    <string name="au_no_new">没有更新哦～</string>
+    <string name="hp_welcome">欢迎来到iChange</string>
 
 
 </resources>

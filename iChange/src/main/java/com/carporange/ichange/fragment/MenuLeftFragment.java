@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.imdemo.model.UserModel;
-import cn.bmob.imdemo.ui.MainActivity;
+import cn.bmob.imdemo.ui.ChatMainActivity;
 
 public class MenuLeftFragment extends Fragment implements View.OnClickListener {
     View view_menu_left;
@@ -137,7 +137,7 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     @Override
                     public void run() {
                         Looper.prepare();
-                        Intent intent = new Intent(getActivity(), MainActivity.class);
+                        Intent intent = new Intent(getActivity(), ChatMainActivity.class);
                         intent.putExtra(getString(R.string.BAR_TITLE), getString(R.string.rc));
                         getActivity().startActivity(intent);
                         handler.sendEmptyMessage(0);

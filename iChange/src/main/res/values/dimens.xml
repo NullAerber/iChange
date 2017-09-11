@@ -47,4 +47,5 @@
     <dimen name="margin_18">18dp</dimen>
     <dimen name="margin_30">30dp</dimen>
     <dimen name="margin_40">40dp</dimen>
+    <dimen name="menuleft_func_unit_height">48dp</dimen>
 </resources>

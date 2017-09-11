@@ -85,7 +85,7 @@ public class SearchUserActivity extends ParentWithNaviActivity {
             }
         });
 
-        go_from_contact = this.getIntent().getStringExtra("go_from_contact");
+        go_from_contact = this.getIntent().getStringExtra(getString(R.string.GO_FROM_CONTACT));
         if(go_from_contact != null) {
             et_find_name.setText(go_from_contact);
             query();

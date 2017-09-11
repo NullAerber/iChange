@@ -1,16 +1,30 @@
 package cn.bmob.imdemo.ui;
 
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 import org.greenrobot.eventbus.EventBus;
 
 import butterknife.Bind;
 import butterknife.OnClick;
+
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.activity.*;
+import com.carporange.ichange.util.ImageService;
+import com.carporange.ichange.util.LinkerServer;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.bmob.imdemo.base.ParentWithNaviActivity;
 import cn.bmob.imdemo.event.FinishEvent;
@@ -19,7 +33,9 @@ import cn.bmob.imdemo.model.UserModel;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 
-/**注册界面
+/**
+ * 注册界面
+ *
  * @author :smile
  * @project:RegisterActivity
  * @date :2016-01-15-18:23
@@ -49,21 +65,31 @@ public class RegisterActivity extends ParentWithNaviActivity {
     }
 
     @OnClick(R.id.btn_register)
-    public void onRegisterClick(View view){
-        UserModel.getInstance().register(et_username.getText().toString(), et_password.getText().toString(),et_password_again.getText().toString(),new LogInListener() {
+    public void onRegisterClick(View view) {
+        UserModel.getInstance().register(et_username.getText().toString(), et_password.getText().toString(), et_password_again.getText().toString(), new LogInListener() {
             @Override
             public void done(Object o, BmobException e) {
-                if(e==null){
+                if (e == null) {
                     EventBus.getDefault().post(new FinishEvent());
-                    startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
-                }else{
-                    if(e.getErrorCode()== BaseModel.CODE_NOT_EQUAL){
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            List<NameValuePair> params = new ArrayList<>();
+                            params.add(new BasicNameValuePair("username",
+                                    UserModel.getInstance().getCurrentUser().getUsername()));
+                            LinkerServer linkerServer = new LinkerServer("user_add", params);
+                            if (linkerServer.Linker())
+                                startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
+                            else toast(getString(R.string.REQUEST_FAIL));;
+                        }
+                    }).start();
+                } else {
+                    if (e.getErrorCode() == BaseModel.CODE_NOT_EQUAL) {
                         et_password_again.setText("");
                     }
-                    toast(e.getMessage()+"("+e.getErrorCode()+")");
+                    toast(e.getMessage() + "(" + e.getErrorCode() + ")");
                 }
             }
         });
     }
-
 }

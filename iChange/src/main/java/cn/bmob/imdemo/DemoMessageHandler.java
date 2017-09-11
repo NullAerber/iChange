@@ -23,7 +23,7 @@ import cn.bmob.imdemo.db.NewFriendManager;
 import cn.bmob.imdemo.event.RefreshEvent;
 import cn.bmob.imdemo.model.UserModel;
 import cn.bmob.imdemo.model.i.UpdateCacheListener;
-import cn.bmob.imdemo.ui.MainActivity;
+import cn.bmob.imdemo.ui.ChatMainActivity;
 import cn.bmob.newim.bean.BmobIMMessage;
 import cn.bmob.newim.bean.BmobIMMessageType;
 import cn.bmob.newim.bean.BmobIMUserInfo;
@@ -83,7 +83,7 @@ public class DemoMessageHandler extends BmobIMMessageHandler{
                     processCustomMessage(msg, event.getFromUserInfo());
                 } else {//SDK内部内部支持的消息类型
                     if (BmobNotificationManager.getInstance(context).isShowNotification()) {//如果需要显示通知栏，SDK提供以下两种显示方式：
-                        Intent pendingIntent = new Intent(context, MainActivity.class);
+                        Intent pendingIntent = new Intent(context, ChatMainActivity.class);
                         pendingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                         //1、多个用户的多条消息合并成一条通知：有XX个联系人发来了XX条消息
                         BmobNotificationManager.getInstance(context).showNotification(event, pendingIntent);
@@ -135,7 +135,7 @@ public class DemoMessageHandler extends BmobIMMessageHandler{
      * @param friend
      */
     private void showAddNotify(NewFriend friend){
-        Intent pendingIntent = new Intent(context, MainActivity.class);
+        Intent pendingIntent = new Intent(context, ChatMainActivity.class);
         pendingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         //这里可以是应用图标，也可以将聊天头像转成bitmap
         Bitmap largetIcon = BitmapFactory.decodeResource(context.getResources(), R.drawable.icon_launch);
@@ -149,7 +149,7 @@ public class DemoMessageHandler extends BmobIMMessageHandler{
      * @param agree
      */
     private void showAgreeNotify(BmobIMUserInfo info,AgreeAddFriendMessage agree){
-        Intent pendingIntent = new Intent(context, MainActivity.class);
+        Intent pendingIntent = new Intent(context, ChatMainActivity.class);
         pendingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         Bitmap largetIcon = BitmapFactory.decodeResource(context.getResources(), R.drawable.icon_launch);
         BmobNotificationManager.getInstance(context).showNotification(largetIcon,info.getName(),agree.getMsg(),agree.getMsg(),pendingIntent);

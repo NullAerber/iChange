@@ -54,7 +54,7 @@ public class DesignerDetailActivity extends AerberBaeeActivity implements View.O
     }
 
     private void initData() {
-        final String id = this.getIntent().getStringExtra("url");
+        final String id = this.getIntent().getStringExtra(getString(R.string.URL));
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -131,13 +131,13 @@ public class DesignerDetailActivity extends AerberBaeeActivity implements View.O
                 @Override
                 public void run() {
                     Intent intent = new Intent(DesignerDetailActivity.this, cn.bmob.imdemo.ui.SearchUserActivity.class);
-                    intent.putExtra("go_from_contact", ((TextView) findViewById(R.id.tv_name)).getText().toString());
+                    intent.putExtra(getString(R.string.GO_FROM_CONTACT), ((TextView) findViewById(R.id.tv_name)).getText().toString());
                     startActivity(intent);
                 }
             }).start();
         } else {
             Intent intent = new Intent(this, ClothDetailActivity.class);
-            intent.putExtra("url", (String) v.getTag());
+            intent.putExtra(getString(R.string.URL), (String) v.getTag());
             startActivity(intent);
         }
     }

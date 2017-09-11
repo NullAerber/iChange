@@ -1,7 +1,9 @@
 package com.carporange.ichange.ui.activity;
 
+import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
@@ -13,6 +15,11 @@ import android.widget.Toast;
 
 import com.carporange.ichange.R;
 import com.carporange.ichange.ui.base.AerberBaeeActivity;
+import com.carporange.ichange.util.ImageService;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TryActivity extends AerberBaeeActivity implements View.OnClickListener {
     // 当前显示的bitmap对象
@@ -39,26 +46,16 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
     // 图片的总数
     private static int maxNum = 52;
     // 资源图片集合
-    private int[] srcs = new int[]{R.drawable.p1, R.drawable.p2,
-            R.drawable.p3, R.drawable.p4, R.drawable.p5, R.drawable.p6,
-            R.drawable.p7, R.drawable.p8, R.drawable.p9, R.drawable.p10,
-            R.drawable.p11, R.drawable.p12, R.drawable.p13, R.drawable.p14,
-            R.drawable.p15, R.drawable.p16, R.drawable.p17, R.drawable.p18,
-            R.drawable.p19, R.drawable.p20, R.drawable.p21, R.drawable.p22,
-            R.drawable.p23, R.drawable.p24, R.drawable.p25, R.drawable.p26,
-            R.drawable.p27, R.drawable.p28, R.drawable.p29, R.drawable.p30,
-            R.drawable.p31, R.drawable.p32, R.drawable.p33, R.drawable.p34,
-            R.drawable.p35, R.drawable.p36, R.drawable.p37, R.drawable.p38,
-            R.drawable.p39, R.drawable.p40, R.drawable.p41, R.drawable.p42,
-            R.drawable.p43, R.drawable.p44, R.drawable.p45, R.drawable.p46,
-            R.drawable.p47, R.drawable.p48, R.drawable.p49, R.drawable.p50,
-            R.drawable.p51, R.drawable.p52};
+    private List<Bitmap> list_bitmap = new ArrayList<>();
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav_try);
         initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
+
+        InitDate();
 
         //drag
         DisplayMetrics dm = getResources().getDisplayMetrics();
@@ -87,9 +84,9 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                 boolean mIsLongPressed = isLongPressed(event.getX(), event.getY(), x, y, lastTime, event.getEventTime(), 1500);
 
                 if (mIsLongPressed) {
-                    if (toastTag){
+                    if (toastTag) {
                         toastTag = false;
-                        Toast.makeText(getApplicationContext(), R.string.try_move_char,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), R.string.try_move_char, Toast.LENGTH_SHORT).show();
                     }
 
                     //长按模式所做的事
@@ -107,7 +104,7 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                          * */
                         case MotionEvent.ACTION_MOVE:  //移动
                             //移动中动态设置位置
-                            if (postionTag){
+                            if (postionTag) {
                                 lastX = screenWidth / 2;
                                 lastY = screenHeight / 2;
                                 postionTag = false;
@@ -166,7 +163,48 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
                 return false;
             }
         });
+    }
 
+    private void InitDate() {
+        showProgressDialog("提示", "正在加载......");
+        final String id = this.getIntent().getStringExtra(getString(R.string.URL));
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 1; i <= 52; ++i) {
+                    byte[] data = new byte[0];
+                    try {
+                        data = ImageService.getImage(getString(R.string.LINKUSRL) + "try_cloth/" + id + "_" + i + ".png");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    final byte[] finalData = data;
+                    list_bitmap.add(BitmapFactory.decodeByteArray(finalData, 0, finalData.length));
+
+                }
+
+                if (progressDialog != null && progressDialog.isShowing()) {
+                    progressDialog.dismiss();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            imageView.setImageBitmap(list_bitmap.get(0));
+                        }
+                    });
+                }
+            }
+        }).start();
+    }
+
+    public void showProgressDialog(String title, String message) {
+        if (progressDialog == null) {
+            progressDialog = ProgressDialog.show(this, title, message, true, false);
+        } else if (progressDialog.isShowing()) {
+            progressDialog.setTitle(title);
+            progressDialog.setMessage(message);
+        }
+
+        progressDialog.show();
 
     }
 
@@ -178,8 +216,7 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
         }
 
         if (scrNum > 0) {
-            bitmap = BitmapFactory.decodeResource(getResources(),
-                    srcs[scrNum - 1]);
+            bitmap = list_bitmap.get(scrNum - 1);
             imageView.setImageBitmap(bitmap);
             scrNum++;
         }
@@ -193,8 +230,7 @@ public class TryActivity extends AerberBaeeActivity implements View.OnClickListe
         }
 
         if (scrNum <= maxNum) {
-            bitmap = BitmapFactory.decodeResource(getResources(),
-                    srcs[scrNum - 1]);
+            bitmap = list_bitmap.get(scrNum - 1);
             imageView.setImageBitmap(bitmap);
             scrNum--;
         }

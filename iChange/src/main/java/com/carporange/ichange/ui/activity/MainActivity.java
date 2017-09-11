@@ -15,6 +15,16 @@ import com.carporange.ichange.R;
 import com.carporange.ichange.fragment.MainFragment;
 import com.carporange.ichange.ui.base.CarporangeBaseActivity;
 import com.carporange.ichange.util.DensityUtil;
+import com.orhanobut.logger.Logger;
+
+import org.greenrobot.eventbus.EventBus;
+
+import cn.bmob.imdemo.bean.User;
+import cn.bmob.imdemo.event.RefreshEvent;
+import cn.bmob.newim.BmobIM;
+import cn.bmob.newim.listener.ConnectListener;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
 
 public class MainActivity extends CarporangeBaseActivity implements MainFragment.OnHomeClickListener {
     ConnectivityManager manager;
@@ -42,6 +52,23 @@ public class MainActivity extends CarporangeBaseActivity implements MainFragment
     @Override
     public void initViews() {
         setContentView(R.layout.activity_main);
+
+        //connent server
+        User user = BmobUser.getCurrentUser(this, User.class);
+        BmobIM.connect(user.getObjectId(), new ConnectListener() {
+            @Override
+            public void done(String uid, BmobException e) {
+                if (e == null) {
+                    Logger.i(getString(R.string.chat_connect_success));
+                    //服务器连接成功就发送一个更新事件，同步更新会话及主页的小红点
+                    EventBus.getDefault().post(new RefreshEvent());
+                } else {
+                    Logger.e(e.getErrorCode() + "/" + e.getMessage());
+                }
+            }
+        });
+
+        //init view
         mFragmentLeft = findViewById(R.id.fragment_left);
         ViewGroup.LayoutParams layoutParams = mFragmentLeft.getLayoutParams();
         layoutParams.width = DensityUtil.getDisplayWidth(this) * 4 / 5;

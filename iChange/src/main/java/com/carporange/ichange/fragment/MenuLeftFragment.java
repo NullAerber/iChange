@@ -96,7 +96,11 @@ public class MenuLeftFragment extends Fragment implements View.OnClickListener {
                     try {
                         data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/" + response + ".png");
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        try {
+                            data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/default.png");
+                        } catch (IOException e1) {
+                            e1.printStackTrace();
+                        }
                     }
                     final byte[] finalData = data;
                     final Drawable avatar = new BitmapDrawable(BitmapFactory.decodeByteArray(finalData, 0, finalData.length));

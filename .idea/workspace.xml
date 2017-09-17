@@ -10,72 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5470551-8714-487e-aecf-f3c6d4b96fe6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-04-21-54-22-160.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-04-21-55-13-160.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-52-59-097.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-54-48-277.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-56-23-070.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-20-59-54-859.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-01-04-841.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-03-52-576.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-06-38-069.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-09-15-024.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-10-40-049.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-11-21-131.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-09-05-21-15-29-591.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p9.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/MainActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/ChatMainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -83,35 +17,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_iChange_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_materialList_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/iChange.iml" afterPath="$PROJECT_DIR$/iChange/iChange.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/iChange/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/DemoMessageHandler.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/DemoMessageHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/SearchUserActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/SearchUserActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/fragment/SetFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/DesignerDetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/LaunchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java" afterPath="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/base/CarporangeBaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_chat_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/iChange/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materialList/materialList.iml" afterPath="$PROJECT_DIR$/materialList/materialList.iml" />
     </list>
     <ignored path="iChangePrivate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,7 +57,7 @@
       <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="885">
               <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
               <folding>
                 <element signature="docComment;class#BaseActivity#0" expanded="false" />
@@ -173,11 +82,11 @@
       <file leaf-file-name="MenuLeftFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+            <state relative-caret-position="223">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
-                <element signature="e#6310#6339#0" expanded="true" />
-                <element signature="e#6341#6363#0" expanded="true" />
+                <element signature="e#3739#3767#0" expanded="true" />
+                <element signature="e#3933#3961#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,9 +95,12 @@
       <file leaf-file-name="HomepageActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="102" column="60" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="60" />
-              <folding />
+            <state relative-caret-position="224">
+              <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+              <folding>
+                <element signature="e#3307#3335#0" expanded="true" />
+                <element signature="e#4158#4190#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,12 +108,14 @@
       <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
               <folding>
-                <element signature="e#2154#2878#0" expanded="true" />
-                <element signature="e#2795#2827#0" expanded="true" />
-                <element signature="e#2877#2878#0" expanded="true" />
+                <element signature="e#1921#3328#0" expanded="true" />
+                <element signature="e#2154#3028#0" expanded="true" />
+                <element signature="e#2945#2977#0" expanded="true" />
+                <element signature="e#3027#3028#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,11 +127,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="255">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="e#1824#1844#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2968,9 +2880,9 @@
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_try.xml" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/TryActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/res/layout/activity_nav_homepage_header.xml" />
+        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java" />
         <option value="$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java" />
-        <option value="$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java" />
       </list>
     </option>
   </component>
@@ -3022,8 +2934,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3062,6 +2976,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iChangePrivate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iChange" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3222,8 +3154,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3569,7 +3499,6 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6107492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3577,7 +3506,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24432677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66775244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3590,6 +3518,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66775244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3643,7 +3573,7 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="iChange">
@@ -3669,7 +3599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3731,7 +3660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3762,7 +3690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3770,7 +3697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3853,11 +3779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/res/drawable-xhdpi/p11.png" />
     <entry file="file://$PROJECT_DIR$/iChange/src/main/res/layout/menu_left.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3873,10 +3795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3905,10 +3823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="206" column="36" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
-          <folding>
-            <element signature="e#6045#6360#0" expanded="false" />
-            <element signature="e#6359#6360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3916,7 +3830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="5861" column="25" selection-start-line="5861" selection-start-column="25" selection-end-line="5861" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3924,7 +3837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3962,7 +3874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="9939" column="0" selection-start-line="9939" selection-start-column="0" selection-end-line="9939" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3970,7 +3881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="2670" column="0" selection-start-line="2670" selection-start-column="0" selection-end-line="2670" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3987,14 +3897,6 @@
             <element signature="e#7147#7363#0" expanded="true" />
             <element signature="e#7362#7363#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/LinkerServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4033,22 +3935,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="255">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#1824#1844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-          <folding>
-            <element signature="e#6310#6339#0" expanded="true" />
-            <element signature="e#6341#6363#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4081,7 +3970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="885">
           <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
           <folding>
             <element signature="docComment;class#BaseActivity#0" expanded="false" />
@@ -4102,22 +3991,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/util/LinkerServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/fragment/MenuLeftFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#3739#3767#0" expanded="true" />
+            <element signature="e#3933#3961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/com/carporange/ichange/ui/activity/HomepageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="102" column="60" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding>
+            <element signature="e#3307#3335#0" expanded="true" />
+            <element signature="e#4158#4190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iChange/src/main/java/cn/bmob/imdemo/ui/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
-            <element signature="e#2154#2878#0" expanded="true" />
-            <element signature="e#2795#2827#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
+            <element signature="e#1921#3328#0" expanded="true" />
+            <element signature="e#2154#3028#0" expanded="true" />
+            <element signature="e#2945#2977#0" expanded="true" />
+            <element signature="e#3027#3028#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
           </folding>
         </state>
       </provider>

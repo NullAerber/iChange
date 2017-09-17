@@ -75,28 +75,32 @@ public class HomepageActivity extends AerberBaeeActivity {
             @Override
             public void run() {
                 List<NameValuePair> params = new ArrayList<>();
-                if (UserModel.getInstance().getCurrentUser() == null){
+                if (UserModel.getInstance().getCurrentUser() == null) {
                     System.exit(0);
                 }
 
                 params.add(new BasicNameValuePair("username",
                         UserModel.getInstance().getCurrentUser().getUsername()));
-                LinkerServer linkerServer = new LinkerServer("user",params);
+                LinkerServer linkerServer = new LinkerServer("user", params);
                 if (linkerServer.Linker()) {
                     String response = linkerServer.getResponse();
                     byte[] data = new byte[0];
                     try {
                         data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/" + response + ".png");
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        try {
+                            data = ImageService.getImage(getString(R.string.LINKUSRL) + "user/default.png");
+                        } catch (IOException e1) {
+                            e1.printStackTrace();
+                        }
                     }
                     final byte[] finalData = data;
                     final Drawable avatar = new BitmapDrawable(BitmapFactory.decodeByteArray(finalData, 0, finalData.length));
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            ((ImageView)findViewById(R.id.account_img_usertitle)).setImageDrawable(avatar);
-                            ((TextView)findViewById(R.id.tv_name)).setText(UserModel.getInstance().getCurrentUser().getUsername());
+                            ((ImageView) findViewById(R.id.account_img_usertitle)).setImageDrawable(avatar);
+                            ((TextView) findViewById(R.id.tv_name)).setText(UserModel.getInstance().getCurrentUser().getUsername());
                         }
                     });
                 } else {

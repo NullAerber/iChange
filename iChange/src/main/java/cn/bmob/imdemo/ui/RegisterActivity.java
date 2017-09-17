@@ -77,9 +77,11 @@ public class RegisterActivity extends ParentWithNaviActivity {
                             List<NameValuePair> params = new ArrayList<>();
                             params.add(new BasicNameValuePair("username",
                                     UserModel.getInstance().getCurrentUser().getUsername()));
+                            params.add(new BasicNameValuePair("password",
+                                    et_password.getText().toString()));
                             LinkerServer linkerServer = new LinkerServer("user_add", params);
-                            if (linkerServer.Linker())
-                                startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
+                            if (linkerServer.Linker()){}
+//                                startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
                             else toast(getString(R.string.REQUEST_FAIL));;
                         }
                     }).start();

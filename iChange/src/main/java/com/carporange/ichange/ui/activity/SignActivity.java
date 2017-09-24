@@ -34,7 +34,6 @@ import java.util.Objects;
  * Created by Aerber on 2017/3/16.
  */
 public class SignActivity extends AerberBaeeActivity {
-    List<String> signed_data;
     LinearLayout ll_sign_bottom;
     TextView tv_sign;
     String username;
@@ -46,8 +45,8 @@ public class SignActivity extends AerberBaeeActivity {
         initBar(this.getIntent().getStringExtra(getString(R.string.BAR_TITLE)));
 
         initView();
-        GetInfo();
         initListener();
+        GetInfo();
         Sign();
     }
 
@@ -59,7 +58,7 @@ public class SignActivity extends AerberBaeeActivity {
     }
 
     private void GetInfo() {
-        signed_data = new ArrayList<>();
+        List<String> signed_data = new ArrayList<>();
         String response = this.getIntent().getStringExtra(getString(R.string.URL));
 
         if (response != null && !Objects.equals(response, " ")) {

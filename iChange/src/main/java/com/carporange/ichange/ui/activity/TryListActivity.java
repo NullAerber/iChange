@@ -86,7 +86,7 @@ public class TryListActivity extends AerberBaeeActivity {
                             final String[] str_record = response.split(";");
                             cards.push(CreateNewCard(str_record[0], str_record[1], str_record[2],
                                     id_record[i], str_record[3]));
-                        } else toast(getString(R.string.REQUEST_FAIL));
+                        } else toast(getString(R.string.fr_no_fav));
 
                     }
                     runOnUiThread(new Runnable() {

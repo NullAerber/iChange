@@ -149,23 +149,7 @@ public class MurmurFragment extends BaseFragment {
                 .addAction(R.id.right_text_button, new TextViewAction(getContext())
                         .setText(R.string.mf_more)
                         .setTextResourceColor(R.color.colorTheme)
-                        .setListener(new OnActionClickListener() {
-                            @Override
-                            public void onActionClicked(View view, Card card) {
-                                new Thread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        Looper.prepare();
-                                        Intent intent = new Intent(getActivity(), WebActivity.class);
-                                        intent.putExtra(getString(R.string.URL), url);
-                                        intent.putExtra(getString(R.string.BAR_TITLE), title);
-                                        getActivity().startActivity(intent);
-                                        handler.sendEmptyMessage(0);
-                                        Looper.loop();
-                                    }
-                                }).start();
-                            }
-                        }));
+                );
 
         new Thread(new Runnable() {
             @Override

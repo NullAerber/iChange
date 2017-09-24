@@ -80,8 +80,8 @@ public class RegisterActivity extends ParentWithNaviActivity {
                             params.add(new BasicNameValuePair("password",
                                     et_password.getText().toString()));
                             LinkerServer linkerServer = new LinkerServer("user_add", params);
-                            if (linkerServer.Linker()){}
-//                                startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
+                            if (linkerServer.Linker())
+                                startActivity(com.carporange.ichange.ui.activity.MainActivity.class, null, true);
                             else toast(getString(R.string.REQUEST_FAIL));;
                         }
                     }).start();

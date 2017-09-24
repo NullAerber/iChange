@@ -58,6 +58,7 @@
     <string name="fr_delete1">你确定要删除</string>
     <string name="fr_delete2">吗？</string>
     <string name="fr_finish_delete">你删除了</string>
+    <string name="fr_no_fav">你的衣柜里面一件衣服都没有～</string>
     <string name="try_no_model">此衣服暂无3D模型～</string>
     <string name="try_move_char">现在你可以移动人物了～～</string>
 

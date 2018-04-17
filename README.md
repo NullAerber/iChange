@@ -1,5 +1,7 @@
 # iChange爱千金
 
+**后期基本不会做维护和更新了**
+
 ## Introduction
 对于此APP的使用流程可以参考项目中的[PDF文件](https://github.com/NullAerber/iChange/blob/master/ichange%20Instruction.pdf)
 

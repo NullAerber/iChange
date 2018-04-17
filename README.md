@@ -3,6 +3,8 @@
 ## Introduction
 对于此APP的使用流程可以参考项目中的[PDF文件](https://github.com/NullAerber/iChange/blob/master/ichange%20Instruction.pdf)
 
+可以通过访问[iChange网站](http://120.77.83.1)来访问我们的网站版本
+
 ## Feature
 1.subindex /designfragment: 下面的推荐根据数据库内容进行变化
 
@@ -54,13 +56,12 @@
 > 注意：此开源项目仅做学习交流使用，如用到实际项目还需多考虑其他因素如并发等，请多多斟酌。如果你觉得不错，对你有帮助，欢迎点个fork，star，follow，也可以帮忙分享给你更多的朋友，这是给我们最大的动力与支持。
 
 ## About me
- - **QQ：** 1019735081
  - **Blog：**[NullAerber-GitBook](https://www.gitbook.com/@nullaerber/dashboard)
- - **Email：** 1019735081@qq.com
+ - **Email：** aerber@qq.com
 
 ## License
 ```
-Copyright (C) 2017 Gan Su
+Copyright (C) 2018 Gan Su
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

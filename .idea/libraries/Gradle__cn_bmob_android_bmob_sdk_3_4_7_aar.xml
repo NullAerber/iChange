@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.bmob.android:bmob-sdk-3.4.7-aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okhttp-3.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/BmobSDK_V3.4.7_0527.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okio-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

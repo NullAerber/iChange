@@ -3,7 +3,9 @@
 **后期基本不会做维护和更新了**
 
 ## Introduction
-对于此APP的使用流程可以参考项目中的[PDF文件](https://github.com/NullAerber/iChange/blob/master/ichange%20Instruction.pdf)
+安装并使用此APP可以[下载apk文件](https://github.com/NullAerber/iChange/raw/master/iChange-releaseV3.1-%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6.apk)
+
+对于此APP的使用流程可以参考项目中的[PDF文件](https://github.com/NullAerber/iChange/raw/master/ichange%20Instruction.pdf)
 
 可以通过访问[iChange网站](http://120.77.83.1)来访问我们的网站版本
 
@@ -58,7 +60,7 @@
 > 注意：此开源项目仅做学习交流使用，如用到实际项目还需多考虑其他因素如并发等，请多多斟酌。如果你觉得不错，对你有帮助，欢迎点个fork，star，follow，也可以帮忙分享给你更多的朋友，这是给我们最大的动力与支持。
 
 ## About me
- - **Blog：**[NullAerber-GitBook](https://www.gitbook.com/@nullaerber/dashboard)
+ - **Blog：**[NullAerber-GitBook](https://nullaerber.github.io)
  - **Email：** aerber@qq.com
 
 ## License

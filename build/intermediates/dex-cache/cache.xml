@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/54f1925a5e4e7a578dd3d8fe56428995aed7ec66/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ae5a75ceedf79108e0d98f8d08454fd7a380d105/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/bc884b01c2af925dc441125f0c7a85ee929fc165/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_875872184a26df47c1dfa0929514c9976d3e7105.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/ef33fc1bb04882bf1791842a5a6e46d2ffc67a3c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_a1ea86cef827b0f5d3b4015a42fac4915850dc40.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_bca60cac73c014beba4ea14f5ad97e8e16ee8597/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4867241d5afab8d9885c3eb51f6cc8ea599d05b3">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_99bb584bcfa09831f155a25fab5e25980d0bfde9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/src/main/libs/httpclient-4.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1e6cbb3cc2c5f210dd1310ff9fcb2c09c0d1438">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5_e79b7b22452306096a36675465d8e3b02404fabc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.4/3cc424c6eda381bf4aee40dc3ccdecc27b2106aa/rxjava-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cc424c6eda381bf4aee40dc3ccdecc27b2106aa">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/rxjava-1.1.4_90de3f8e2719149eb8e73c052596cd69089b7288.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/4b3da3e9ef9e2091e3b34f320258a7a33389f999/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25769d3bf1e41d01ba6936c55788ce286670337f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_45c582815d0161b9d8e07da2e3e43c7924310453/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/d43343fcbe99111758a0761695bf4383dda045c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_207e4a999f2e2eef0697cd270a2ea8c1842df1d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/34de6860e3aad11b878e059aba4f875b8478dcb7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_729059fac87e1d4d7d161c4e13618c494df3cdb3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/src/main/libs/httpcore-4.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.1_8ddd5c41447e9426871b83d4fb6b9a1d31c33750/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="480fa6af6504ae677e3af7a34bdb3460ca2dd29c">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2bd14d912eaf51ec3d9a8d902054ffc1b071044d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/glide-3.7.0_822a7a9f6cb523b594ad0953c08b4a9bf5f983c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_2ef1125b9539675b543d70729abf8beb1a02557f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/universal-image-loader-1.9.3_31a65a8168aed45f1e557881b411df9608f1c3d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okio-1.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="014ef0504f01d11401d5630d8dbd892e728096bb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/okio-1.7.0_b31cb69294ca10a0903b03a8cea70aebc2152a87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/materialList/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b5e0668f449f2ddc30691904565d32a821020d7">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_005ea8f73fa55de9be14aca671160d8a1cc76011.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/文档/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/support-annotations-25.1.1_323e72c4fe4a7b2faa7e276d075d5579a896726f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/2afb44e0b365b258c7dd0de853876b64e0459a45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f49fbc1bda3fa9073a82dd87de3e1ceea24268d">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_cbc106ca6406c0e99397da9e15e6ea4312485388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/6addf71d229ac8428b67a6dd138fd37bae48b476/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_8ddcca8acbc50ac68c64d21268b3b071f31f4da4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/5407c7bf1778a9474d37610b64c9e98fb701bbc8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_29d10f2c44b28749ec6982acec1a69c13a7ed729.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_822a7a9f6cb523b594ad0953c08b4a9bf5f983c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e61818680190dec5f17afcbdd5761b85882b768">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_4092eaf098c0e5fe55f21857c3f9ff379b4542f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/03b9b9a7dbef05db43f33e0cf515b532b887b94e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_60b41d25ffaeeb53b4bef59eab46e58461348fb1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/ad791cc5b93f7ed3f6506a6deb41bb3a495cecca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_909c9239beb9dd3877f29360e1dd3d542ab3d771/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/libs/BmobNewIM_2.0.5_20160601.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b535a2906149ccebadc4b1cab0126130916842ea">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/BmobNewIM_2.0.5_20160601_b4f8cf0fba566e5e482158df4e9dc13bef5e713c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/systembartint-1.0.3_f04f4ce61666dc82c4d9b87e873082856f6775cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/libs/androidasync-2.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c88f1359a331cff1ea593267d1f63dca63b364b">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/androidasync-2.1.6_b6124a0c5c62bd5b0f1b8d9abf2ea5459f696c79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/34de6860e3aad11b878e059aba4f875b8478dcb7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_729059fac87e1d4d7d161c4e13618c494df3cdb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/2d98e71e14376f705dd08081d1abb5c2ac5bd87a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="109f0ec452925b46b500e8d28ee2cd2d1a0145a9">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_0a3d06e8aa174ac39a677db1700ee5b828729de7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_6a9b6a56fe97e460ed8ac1869aeb38b49f3dc26a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/ff10e09ea2b44df2e311057d50aba54634bf7b54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_0b28e4b9beefeb1d67c35e991993554e3927b06c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="46b64293efb94feb03e6270d400f95b2664513f6">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e50b903c47ac77047f72e387b629f830bd80a94/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/c278241890ba59723fefec299a8644b7bb22bfdb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_e8644d66ea49c9b4ad77adb0e938929c65926c60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/9672d14f158489c7b4f081eaa75043c2328176f9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_7d3f54c917b33f2eaff246b9207ed63a5d3bd5a4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/BmobSDK_V3.4.7_0527.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d76714735345152034fd20b1bec30d3936abca4">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/BmobSDK_V3.4.7_0527_e47b2e4f6dc3eb66df191b2a0bdbad1cbb5d70d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/d3e78bfcdf6644e297d2e5c3c6d68e5b5d788ebf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_ddc486a383bcab66bd6e6298415a3f1487496d7b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/c76db4d0b5d1874928bfd92837eb75b1a8d736f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a70cdeeea9b109cfc5cbf5afef1203d350fb9df">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f00e58f82edc15a50d4bb024cae8a49a490ba79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/ef33fc1bb04882bf1791842a5a6e46d2ffc67a3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1ea86cef827b0f5d3b4015a42fac4915850dc40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/bc884b01c2af925dc441125f0c7a85ee929fc165/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_875872184a26df47c1dfa0929514c9976d3e7105/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="014ef0504f01d11401d5630d8dbd892e728096bb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.7.0_b31cb69294ca10a0903b03a8cea70aebc2152a87/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/54f1925a5e4e7a578dd3d8fe56428995aed7ec66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_ae5a75ceedf79108e0d98f8d08454fd7a380d105.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/eventbus-3.0.0_bca60cac73c014beba4ea14f5ad97e8e16ee8597.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4867241d5afab8d9885c3eb51f6cc8ea599d05b3">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/okhttp-3.2.0_99bb584bcfa09831f155a25fab5e25980d0bfde9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/src/main/libs/httpclient-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1e6cbb3cc2c5f210dd1310ff9fcb2c09c0d1438">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/httpclient-4.5_e79b7b22452306096a36675465d8e3b02404fabc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/d43343fcbe99111758a0761695bf4383dda045c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_207e4a999f2e2eef0697cd270a2ea8c1842df1d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.4/3cc424c6eda381bf4aee40dc3ccdecc27b2106aa/rxjava-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cc424c6eda381bf4aee40dc3ccdecc27b2106aa">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.4_90de3f8e2719149eb8e73c052596cd69089b7288/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/4b3da3e9ef9e2091e3b34f320258a7a33389f999/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_25769d3bf1e41d01ba6936c55788ce286670337f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/butterknife-7.0.1_45c582815d0161b9d8e07da2e3e43c7924310453.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/src/main/libs/httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/httpcore-4.4.1_8ddd5c41447e9426871b83d4fb6b9a1d31c33750.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/picasso-2.5.2_2ef1125b9539675b543d70729abf8beb1a02557f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.3_31a65a8168aed45f1e557881b411df9608f1c3d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e61818680190dec5f17afcbdd5761b85882b768">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4092eaf098c0e5fe55f21857c3f9ff379b4542f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/5407c7bf1778a9474d37610b64c9e98fb701bbc8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_29d10f2c44b28749ec6982acec1a69c13a7ed729/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/libs/androidasync-2.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c88f1359a331cff1ea593267d1f63dca63b364b">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/androidasync-2.1.6_b6124a0c5c62bd5b0f1b8d9abf2ea5459f696c79.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/文档/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_323e72c4fe4a7b2faa7e276d075d5579a896726f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/6addf71d229ac8428b67a6dd138fd37bae48b476/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ddcca8acbc50ac68c64d21268b3b071f31f4da4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/ad791cc5b93f7ed3f6506a6deb41bb3a495cecca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_909c9239beb9dd3877f29360e1dd3d542ab3d771.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/systembartint-1.0.3_f04f4ce61666dc82c4d9b87e873082856f6775cb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/03b9b9a7dbef05db43f33e0cf515b532b887b94e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60b41d25ffaeeb53b4bef59eab46e58461348fb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/libs/BmobNewIM_2.0.5_20160601.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b535a2906149ccebadc4b1cab0126130916842ea">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/BmobNewIM_2.0.5_20160601_b4f8cf0fba566e5e482158df4e9dc13bef5e713c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_64fe123bec3b6e58cdaf0706979c0fd26af26faa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/ff10e09ea2b44df2e311057d50aba54634bf7b54/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0b28e4b9beefeb1d67c35e991993554e3927b06c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/33c52297bad367eac36f8d250fd8463b4d12e0e3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="46b64293efb94feb03e6270d400f95b2664513f6">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_1e50b903c47ac77047f72e387b629f830bd80a94.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/2d98e71e14376f705dd08081d1abb5c2ac5bd87a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="109f0ec452925b46b500e8d28ee2cd2d1a0145a9">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a3d06e8aa174ac39a677db1700ee5b828729de7/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/library-2.4.0_6a9b6a56fe97e460ed8ac1869aeb38b49f3dc26a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/9672d14f158489c7b4f081eaa75043c2328176f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d3f54c917b33f2eaff246b9207ed63a5d3bd5a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/c278241890ba59723fefec299a8644b7bb22bfdb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8644d66ea49c9b4ad77adb0e938929c65926c60/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/4dfb4d89e9c1150aeb8982e2e5bf3d1037097c2e/output/jars/libs/BmobSDK_V3.4.7_0527.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d76714735345152034fd20b1bec30d3936abca4">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/BmobSDK_V3.4.7_0527_e47b2e4f6dc3eb66df191b2a0bdbad1cbb5d70d5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/d3e78bfcdf6644e297d2e5c3c6d68e5b5d788ebf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ddc486a383bcab66bd6e6298415a3f1487496d7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aerberjoy/.android/build-cache/2afb44e0b365b258c7dd0de853876b64e0459a45/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f49fbc1bda3fa9073a82dd87de3e1ceea24268d">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cbc106ca6406c0e99397da9e15e6ea4312485388/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aerberjoy/.android/build-cache/c76db4d0b5d1874928bfd92837eb75b1a8d736f5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a70cdeeea9b109cfc5cbf5afef1203d350fb9df">
+        <dex dex="/home/aerberjoy/GitHub/iChangePrivate/iChange/build/intermediates/pre-dexed/release/classes_3f00e58f82edc15a50d4bb024cae8a49a490ba79.jar" />
+    </item>
+
+</items>
